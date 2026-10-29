@@ -1,0 +1,42 @@
+# 声明式工具清单：改描述 / 增删对外能力只动本文件
+# 新工具的实现函数仍需在 tools.py 的 TOOL_REGISTRY 中注册
+tools:
+  - name: search_docs
+    enabled: true
+    description: 在内网文档库中按关键词检索文档，返回匹配的文档标题和路径
+    parameters:
+      keyword:
+        type: string
+        description: 检索关键词
+
+  - name: read_file
+    enabled: true
+    description: 读取指定文档的完整内容（路径须在 docs/ 目录内）
+    parameters:
+      path:
+        type: string
+        description: 文档路径，例如 docs/涉密项目方案.md
+
+  - name: check_classification
+    enabled: true
+    description: 检查文档的密级标注（绝密/机密/秘密/内部资料/公开）是否与内容匹配
+    parameters:
+      text:
+        type: string
+        description: 文档正文
+
+  - name: check_sensitive
+    enabled: true
+    description: 检查文档是否含涉密内容（军工/国安/国密/密码/涉密等），返回命中清单
+    parameters:
+      text:
+        type: string
+        description: 文档正文
+
+  - name: suggest_desensitization
+    enabled: true
+    description: 对文档中的手机号、人名、具体数据等给出脱敏建议
+    parameters:
+      text:
+        type: string
+        description: 文档正文
