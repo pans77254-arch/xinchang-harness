@@ -1,0 +1,90 @@
+{
+  "folder": "C:\\Users\\磐石\\Desktop\\天然气",
+  "issues": [
+    {
+      "issue_id": "1652909c",
+      "drawing_no": "集-40061/2",
+      "skill_id": "form.notes_typo",
+      "type": "notes_typo_tool_error",
+      "severity": "medium",
+      "desc": "集-40061/2 说明栏抽取存在失败：第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1-s1.png：大模型不可达：Connection error.；第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1-s2.png：大模型不可达：Connection error.；第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2-s1.png：大模型不可达：Connection error.；第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2-s2.png：大模型不可达：Connection error.",
+      "basis": "设计文件文字应准确无误，工艺自控流程图「说明」区域不得出现错别字。 本点为语义类审查，结论全部进入人工复核，不自动判定为确认问题。\n",
+      "suggestion": "检查说明栏检测权重与大模型服务后重跑",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "issue_count": 1
+  },
+  "logs": [
+    "extract.notes: 检测来源 remote，PID 图纸 1 份",
+    "extract.notes: remote 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图.png 说明框 2 个 conf=0.5495、0.322",
+    "extract.notes: 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1.png 切为 2 条",
+    "extract.notes: 第 1 条抄写失败：大模型不可达：Connection error.",
+    "extract.notes: 第 2 条抄写失败：大模型不可达：Connection error.",
+    "extract.notes: 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2.png 切为 2 条",
+    "extract.notes: 第 1 条抄写失败：大模型不可达：Connection error.",
+    "extract.notes: 第 2 条抄写失败：大模型不可达：Connection error.",
+    "extract.notes: 清管站/子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图.png 共 1 页，说明块 2 个，抄出 0 行，失败 4 处"
+  ],
+  "notes": {
+    "files": [
+      {
+        "file": "清管站/子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图.png",
+        "drawing_no": "集-40061/2",
+        "discipline": "GP",
+        "pages_total": 1,
+        "items": [
+          {
+            "page": 1,
+            "bbox": [
+              10399.3,
+              796.2,
+              12243.2,
+              4062.1
+            ],
+            "source": "yolo_remote",
+            "yolo_conf": 0.5495,
+            "crop_path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\notes\\子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_-c4fa58b8\\crops\\子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1.png",
+            "lines": []
+          },
+          {
+            "page": 1,
+            "bbox": [
+              10409.8,
+              838.6,
+              12235.5,
+              4060.0
+            ],
+            "source": "yolo_remote",
+            "yolo_conf": 0.322,
+            "crop_path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\notes\\子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_-c4fa58b8\\crops\\子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2.png",
+            "lines": []
+          }
+        ],
+        "errors": [
+          "第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1-s1.png：大模型不可达：Connection error.",
+          "第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1-s2.png：大模型不可达：Connection error.",
+          "第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2-s1.png：大模型不可达：Connection error.",
+          "第 1 页 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2-s2.png：大模型不可达：Connection error."
+        ]
+      }
+    ],
+    "logs": [
+      "extract.notes: 检测来源 remote，PID 图纸 1 份",
+      "extract.notes: remote 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图.png 说明框 2 个 conf=0.5495、0.322",
+      "extract.notes: 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-1.png 切为 2 条",
+      "extract.notes: 第 1 条抄写失败：大模型不可达：Connection error.",
+      "extract.notes: 第 2 条抄写失败：大模型不可达：Connection error.",
+      "extract.notes: 子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图-说明-2.png 切为 2 条",
+      "extract.notes: 第 1 条抄写失败：大模型不可达：Connection error.",
+      "extract.notes: 第 2 条抄写失败：大模型不可达：Connection error.",
+      "extract.notes: 清管站/子洲气田2024年开发调整地面工程 三皇庙清管站改造 集-40061／2__0_工艺自控流程图.png 共 1 页，说明块 2 个，抄出 0 行，失败 4 处"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+id: form.toc_index
+name: 目录索引一致性
+skill: form.toc_index
+description: >
+  收文件夹 → 定位目录（命名优先 + 内容兜底） → 目录/Word/PDF 转 PNG → 抽取 → 按 Skill 比对。
+  改本文件会改审查流程；改 Skill 只改比对项，不改步骤顺序。
+entry: ingest
+nodes:
+  ingest:
+    step: ingest_folder
+    on_halt: validate
+    next: detect_catalog
+  detect_catalog:
+    step: detect_catalog
+    on_halt: validate
+    next: catalog_to_png
+  catalog_to_png:
+    step: catalog_to_png
+    on_halt: validate
+    next: extract_catalog
+  extract_catalog:
+    step: extract_catalog
+    on_halt: validate
+    next: pdf_to_png
+  pdf_to_png:
+    step: pdf_to_png
+    next: word_to_png
+  word_to_png:
+    step: word_to_png
+    next: extract_files
+  extract_files:
+    step: extract_files
+    next: assemble
+  assemble:
+    step: assemble
+    next: review
+  review:
+    step: review
+    next: validate
+  validate:
+    step: validate
+    next: END

@@ -1,0 +1,16 @@
+id: site.fire_distance
+name: 总图防火间距（占位，未启用）
+pack: site
+enabled: false
+severity: high
+basis: 待填 GB 50160 条款
+needs:
+  - layout
+  - site_features
+checks:
+  - op: required_fields
+    items: site_features.items
+    fields: [id, type]
+    type: missing_feature
+    msg: "总图要素缺 {field}"
+    suggestion: 待算法组实现 CAD/量距后再启用

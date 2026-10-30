@@ -1,0 +1,10 @@
+{
+  "task_id": "bc3b9d53f7",
+  "kind": "folder",
+  "folder": "/tmp/pid_seq_e2e",
+  "skill_ids": [
+    "form.pid_seq"
+  ],
+  "files": [],
+  "status": "reviewed"
+}

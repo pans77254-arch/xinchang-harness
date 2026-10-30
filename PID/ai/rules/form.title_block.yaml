@@ -1,0 +1,21 @@
+id: form.title_block
+name: 标题栏完整性与一致性
+pack: form
+enabled: true
+severity: medium
+basis: 标题栏必填项完整，项目号/阶段与目录一致
+needs:
+  - title_block
+  - toc
+checks:
+  - op: required_fields
+    items: title_block.items
+    fields: [file_no, name, project_name, area_name, unit_name, discipline_unit_name, stage, project_no, scale, date, discipline, revision]
+    type: missing_field
+    msg: "{drawing_no} 标题栏缺 {field}"
+    suggestion: 按图框补全对应栏
+  - op: eq
+    field: title_block.stages
+    type: stage_mismatch
+    msg: "各图阶段不一致：{items}"
+    suggestion: 统一为同一设计阶段

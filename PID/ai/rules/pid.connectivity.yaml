@@ -1,0 +1,17 @@
+id: pid.connectivity
+name: P&ID 连通性（占位，未启用）
+pack: pid
+enabled: false
+severity: high
+basis: 待填 GB/企业标准条款
+needs:
+  - layout
+  - legend
+  - pid_graph
+checks:
+  - op: required_fields
+    items: pid_graph.nodes
+    fields: [id, type]
+    type: missing_node_field
+    msg: "P&ID 节点缺 {field}"
+    suggestion: 待算法组实现 pid_graph 后再启用

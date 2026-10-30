@@ -1,0 +1,19 @@
+id: pid.review
+name: PID 图纸审查
+description: >
+  上传只保存 PDF。随后由节点完成：解析页图 → 版面识别 → 抽出说明、图表、图框 → 按审查点对比。
+  不读取上一次已经生成的页图。不读 CAD。
+entry: parse
+nodes:
+  parse:
+    step: parse
+    next: recognize
+  recognize:
+    step: recognize
+    next: extract_fields
+  extract_fields:
+    step: extract_fields
+    next: review_json
+  review_json:
+    step: review_json
+    next: END

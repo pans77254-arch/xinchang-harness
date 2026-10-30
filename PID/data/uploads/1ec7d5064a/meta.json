@@ -1,0 +1,98 @@
+{
+  "task_id": "1ec7d5064a",
+  "files": [
+    {
+      "id": "PDF合并",
+      "name": "PDF合并.pdf",
+      "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\PDF合并.pdf",
+      "page_count": 4,
+      "dpi": 300,
+      "pages": [
+        {
+          "page": 1,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p1.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        },
+        {
+          "page": 2,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p2.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        },
+        {
+          "page": 3,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p3.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        },
+        {
+          "page": 4,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p4.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        }
+      ],
+      "png": [
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p1.png",
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p2.png",
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p3.png",
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\png\\PDF合并-p4.png"
+      ],
+      "info": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\1ec7d5064a\\PDF合并.info.json"
+    }
+  ],
+  "status": "uploaded"
+}

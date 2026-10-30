@@ -1,0 +1,117 @@
+{
+  "task_id": "bc3b9d53f7",
+  "project_id": "",
+  "files": [],
+  "skill_ids": [
+    "form.pid_seq"
+  ],
+  "storage_dir": "/tmp/pid_seq_e2e",
+  "artifacts": {
+    "file_types": {
+      "catalog": null,
+      "pid": "工艺流程自控图-模型.pdf",
+      "plan": null,
+      "all_files": [
+        "工艺流程自控图-模型.pdf"
+      ],
+      "logs": [
+        "文件名命中PID：工艺流程自控图-模型.pdf",
+        "VLM 兜底判定，候选 1 个文件"
+      ]
+    },
+    "folder": "/tmp/pid_seq_e2e",
+    "layout": {
+      "_stub": true,
+      "items": [],
+      "note": "未实现：YOLO / PP-DocLayout"
+    },
+    "pid_sheets": {
+      "file": "工艺流程自控图-模型.pdf",
+      "pages_total": 4,
+      "items": [
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "page": 1,
+          "drawing_no": "BD25151-0102-OP-PID-001",
+          "name": "PID DRAWING -01",
+          "sheet_no": "01",
+          "total_sheets": ""
+        },
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "page": 2,
+          "drawing_no": "BD25151-0102-OP-PID-001",
+          "name": "PID DRAWING -02",
+          "sheet_no": "02",
+          "total_sheets": ""
+        },
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "page": 3,
+          "drawing_no": "BD25151-0102-OP-PID-001",
+          "name": "PID DRAWING -04",
+          "sheet_no": "04",
+          "total_sheets": ""
+        },
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "page": 4,
+          "drawing_no": "BD25151-0102-OP-PID-001",
+          "name": "PID DRAWING -05",
+          "sheet_no": "05",
+          "total_sheets": ""
+        }
+      ],
+      "errors": [],
+      "logs": [
+        "extract.pid_sheets: yolo 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 1 页 sheet_no=01",
+        "extract.pid_sheets: yolo 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 2 页 sheet_no=02",
+        "extract.pid_sheets: yolo 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 3 页 sheet_no=04",
+        "extract.pid_sheets: yolo 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 4 页 sheet_no=05",
+        "extract.pid_sheets: 工艺流程自控图-模型.pdf 共 4 页，抽出 4 页，失败 0 页"
+      ]
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "6468456f",
+      "drawing_no": "工艺流程自控图-模型.pdf",
+      "skill_id": "form.pid_seq",
+      "type": "pid_seq_gap",
+      "severity": "high",
+      "desc": "页号不连续，缺 03",
+      "basis": "PID 各页页号应按编号规则连续，无缺号、跳号、重复，且与「共 X 页」标注的总页数一致。 页号取哪个字段、编号怎么拆、按什么步长连续，都在本文件的 checks 里配置。\n",
+      "suggestion": "核对 PID 各页页号编排，补齐缺号或修正重复",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    }
+  ],
+  "logs": [
+    "detect: layout",
+    "extract: ['pid_sheets']",
+    "reviewed form.pid_seq"
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "issue_count": 1
+  },
+  "file_types": {
+    "catalog": null,
+    "pid": "工艺流程自控图-模型.pdf",
+    "plan": null,
+    "all_files": [
+      "工艺流程自控图-模型.pdf"
+    ],
+    "logs": [
+      "文件名命中PID：工艺流程自控图-模型.pdf",
+      "VLM 兜底判定，候选 1 个文件"
+    ]
+  }
+}

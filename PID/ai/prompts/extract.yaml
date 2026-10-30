@@ -1,0 +1,30 @@
+# 信息抽取共用提示词。审查点不要把这些句子写进 Python。
+
+extract.user:
+  text: |
+    你是工程设计文件信息抽取器。只输出 JSON，不要解释，不要使用 Markdown。
+    看不清或不存在的字段填空字符串。不要编造。
+    {{task}}
+
+    输出{{shape}}
+    字段：
+    {{fields}}
+
+extract.object_shape:
+  text: |
+    一个 JSON 对象，键就是下面的英文字段名。
+
+extract.catalog_shape:
+  text: |
+    一个 JSON 对象，形如 {"public": {公共字段}, "entries": [表格每一行]}。public 和每一行的键都使用下面给出的英文名。没有数据的行不要输出。
+
+extract.chart:
+  text: |
+    输入是工程图纸上的一块表格裁图。按阅读顺序逐行抄写单元格文字。
+    空单元格用空字符串。不要改字，不要补充表里没有的内容。
+
+extract.text_suffix:
+  text: |
+
+    待抽取文本：
+    {{text}}

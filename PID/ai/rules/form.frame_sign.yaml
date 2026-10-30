@@ -1,0 +1,19 @@
+id: form.frame_sign
+name: 签署栏是否填写
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.2.2条第10款：签署栏应为各岗位人员相应的姓名签署。第8.2.3条：设计文件签署不应少于设计（编制）、校对、审核三级。附录 B 按文件重要程度确定签署层次。
+  本点检查制图、设计、校对、审核、项目负责人、审定是否有字。公司发文人员名单不在项目材料里，不能按名单核对是谁签。
+needs:
+  - frame_rows
+checks:
+  - op: required_fields
+    items: frame_rows.items
+    fields: [制图, 设计, 校对, 审核, 项目负责人, 审定]
+    type: missing_signature
+    msg: "{drawing_no} 签署栏缺 {field}"
+    suggestion: 核对原图签署；若栏内有字但结果为空，先重抽图框

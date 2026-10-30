@@ -1,0 +1,1693 @@
+{
+  "file": "PDF合并.pdf",
+  "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\c77f389cfe\\PDF合并.pdf",
+  "page_count": 4,
+  "pages": [
+    {
+      "page": 1,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\c77f389cfe\\png\\PDF合并-p1.png",
+      "notes": {
+        "has_notes": true,
+        "notes_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p1-说明-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p1-说明-1.png",
+            "info": {
+              "lines": [
+                {
+                  "no": "",
+                  "kind": "标题",
+                  "text": "说明：",
+                  "line": 1
+                },
+                {
+                  "no": "1、",
+                  "kind": "条文",
+                  "text": "本流程为米北-1集气站采出水存储及装卸车区流程图。",
+                  "line": 2
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→卸车区→管输至站内原水罐",
+                  "line": 3
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "站内净化水来水→污水池",
+                  "line": 4
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→装车区→拉运",
+                  "line": 5
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→外输区(预留)→外输",
+                  "line": 6
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→溢流放空→污水池",
+                  "line": 7
+                },
+                {
+                  "no": "2、",
+                  "kind": "条文",
+                  "text": "管线字母代号对应介质",
+                  "line": 8
+                },
+                {
+                  "no": "",
+                  "kind": "条文",
+                  "text": "管线、阀门编号及设备位号按照油田产建数字化交付编码规定执行。对应介质代号如下：",
+                  "line": 9
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chart": {
+        "has_chart": true,
+        "chart_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-1.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-2.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-3.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-4.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-1.png",
+            "info": {
+              "rows": [
+                [
+                  "序号",
+                  "代号",
+                  "中文名称",
+                  "序号",
+                  "代号",
+                  "中文名称"
+                ],
+                [
+                  "1",
+                  "C",
+                  "化学药剂",
+                  "8",
+                  "OS",
+                  "含油污泥"
+                ],
+                [
+                  "2",
+                  "RWR",
+                  "循环水(回)",
+                  "9",
+                  "WO",
+                  "污油"
+                ],
+                [
+                  "3",
+                  "RWS",
+                  "循环水(供)",
+                  "10",
+                  "PD",
+                  "重力流排污"
+                ],
+                [
+                  "4",
+                  "DGW",
+                  "气田采出水",
+                  "11",
+                  "CR",
+                  "地上污水罐上清液"
+                ],
+                [
+                  "5",
+                  "TOD",
+                  "处理后回注采出水",
+                  "12",
+                  "FRD",
+                  "初期雨水"
+                ],
+                [
+                  "6",
+                  "RW",
+                  "清水",
+                  "13",
+                  "CRD",
+                  "清洁雨水"
+                ],
+                [
+                  "7",
+                  "RUD",
+                  "回用水",
+                  "14",
+                  "SD",
+                  "生活污水"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-2.png",
+            "info": {
+              "rows": [
+                [
+                  "字母",
+                  "首位功能",
+                  "后继功能",
+                  "字母",
+                  "首位功能",
+                  "后继功能"
+                ],
+                [
+                  "T",
+                  "温 度",
+                  "变 送",
+                  "H",
+                  "人工触发",
+                  ""
+                ],
+                [
+                  "P",
+                  "压 力",
+                  "",
+                  "C",
+                  "",
+                  "控 制"
+                ],
+                [
+                  "L",
+                  "液 位",
+                  "",
+                  "I",
+                  "",
+                  "显 示"
+                ],
+                [
+                  "F",
+                  "流 量",
+                  "",
+                  "R",
+                  "",
+                  "记 录"
+                ],
+                [
+                  "A",
+                  "分 析",
+                  "报 警",
+                  "U",
+                  "多变量",
+                  "多功能"
+                ],
+                [
+                  "M",
+                  "水分或湿度",
+                  "中、中间",
+                  "V",
+                  "",
+                  "阀 门"
+                ],
+                [
+                  "S",
+                  "速度或频率",
+                  "开关或联锁",
+                  "X",
+                  "未分类",
+                  "未分类"
+                ],
+                [
+                  "Z",
+                  "状 态",
+                  "驱动器、执行元件",
+                  "Y",
+                  "",
+                  "继电器、转换器"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-3.png",
+            "info": {
+              "rows": [
+                [
+                  "",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p1-表格-4.png",
+            "info": {
+              "rows": [
+                [
+                  "阀1",
+                  "放空阀 J11H-10Q DN25",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "器-1",
+                  "成套加药装置(2罐2泵)",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "泵-5/1~9",
+                  "循环水泵 Q=400m^3/h, H=36m, N=75kW",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "池-1",
+                  "污水池 8mx6mx5m",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "罐-1/1-3",
+                  "储水罐V=15000m^3",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "泵-4/1~2",
+                  "污水提升泵 Q=15m^3/h, H=50m, N=5.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-3/1~2",
+                  "装车泵 Q=120m^3/h, H=30m, N=18.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-2/1~2",
+                  "卸水提升泵(清水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-1/1~2",
+                  "卸水提升泵(采出水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "箱-1/1-4",
+                  "卸水箱 V=24m^3 6000mmx2000mmx2000mm",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "编号",
+                  "名称型号及规格",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "frame": {
+        "has_frame": true,
+        "frame_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p1-图框-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p1-图框-1.png",
+            "设计证书号": "A161000224",
+            "勘察证书号": "B161000224",
+            "制图": "",
+            "设计": "",
+            "校对": "",
+            "审核": "",
+            "项目负责人": "",
+            "审定": "",
+            "项目名称": "长庆油田蒙陕气田米172H区块米8井区8#煤产能建设项目地面工程",
+            "区域名称": "米北-1集气站调整设计",
+            "单元名称": "",
+            "专业单体名称": "",
+            "图纸名称": "工艺自控流程图",
+            "阶段": "施工图",
+            "项目号": "CEDC132S-2024",
+            "比例": "~",
+            "文件号": "DD24132-08-WP-PID-001-1",
+            "日期": "2026-07-03",
+            "专业": "给排水",
+            "版次": "0版",
+            "张数": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\c77f389cfe\\png\\PDF合并-p2.png",
+      "notes": {
+        "has_notes": true,
+        "notes_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p2-说明-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p2-说明-1.png",
+            "info": {
+              "lines": [
+                {
+                  "no": "",
+                  "kind": "标题",
+                  "text": "说明：",
+                  "line": 1
+                },
+                {
+                  "no": "1、",
+                  "kind": "条文",
+                  "text": "本流程为米北-1集气站采出水存储及装卸车区流程图。",
+                  "line": 2
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→卸车区→管输至站内原水罐",
+                  "line": 3
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "站内净化水来水→污水池",
+                  "line": 4
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→装车区→拉运",
+                  "line": 5
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→外输区(预留)→外输",
+                  "line": 6
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→溢流放空→污水池",
+                  "line": 7
+                },
+                {
+                  "no": "2、",
+                  "kind": "条文",
+                  "text": "管线字母代号对应介质",
+                  "line": 8
+                },
+                {
+                  "no": "",
+                  "kind": "条文",
+                  "text": "管线、阀门编号及设备位号按照油田产建数字化交付编码规定执行。对应介质代号如下：",
+                  "line": 9
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chart": {
+        "has_chart": true,
+        "chart_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-1.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-2.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-3.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-4.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-1.png",
+            "info": {
+              "rows": [
+                [
+                  "序号",
+                  "代号",
+                  "中文名称",
+                  "序号",
+                  "代号",
+                  "中文名称"
+                ],
+                [
+                  "1",
+                  "C",
+                  "化学药剂",
+                  "8",
+                  "OS",
+                  "含油污泥"
+                ],
+                [
+                  "2",
+                  "RWR",
+                  "循环水(回)",
+                  "9",
+                  "WO",
+                  "污油"
+                ],
+                [
+                  "3",
+                  "RWS",
+                  "循环水(供)",
+                  "10",
+                  "PD",
+                  "重力流排污"
+                ],
+                [
+                  "4",
+                  "DGW",
+                  "气田采出水",
+                  "11",
+                  "CR",
+                  "地上污水罐上清液"
+                ],
+                [
+                  "5",
+                  "TOD",
+                  "处理后回注采出水",
+                  "12",
+                  "FRD",
+                  "初期雨水"
+                ],
+                [
+                  "6",
+                  "RW",
+                  "清水",
+                  "13",
+                  "CRD",
+                  "清洁雨水"
+                ],
+                [
+                  "7",
+                  "RUD",
+                  "回用水",
+                  "14",
+                  "SD",
+                  "生活污水"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-2.png",
+            "info": {
+              "rows": [
+                [
+                  "字母",
+                  "首位功能",
+                  "后继功能",
+                  "字母",
+                  "首位功能",
+                  "后继功能"
+                ],
+                [
+                  "T",
+                  "温 度",
+                  "变 送",
+                  "H",
+                  "人工触发",
+                  ""
+                ],
+                [
+                  "P",
+                  "压 力",
+                  "",
+                  "C",
+                  "",
+                  "控 制"
+                ],
+                [
+                  "L",
+                  "液 位",
+                  "",
+                  "I",
+                  "",
+                  "显 示"
+                ],
+                [
+                  "F",
+                  "流 量",
+                  "",
+                  "R",
+                  "",
+                  "记 录"
+                ],
+                [
+                  "A",
+                  "分 析",
+                  "报 警",
+                  "U",
+                  "多变量",
+                  "多功能"
+                ],
+                [
+                  "M",
+                  "水分或湿度",
+                  "中、中间",
+                  "V",
+                  "",
+                  "阀 门"
+                ],
+                [
+                  "S",
+                  "速度或频率",
+                  "开关或联锁",
+                  "X",
+                  "未分类",
+                  "未分类"
+                ],
+                [
+                  "Z",
+                  "状 态",
+                  "驱动器、执行元件",
+                  "Y",
+                  "",
+                  "继电器、转换器"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-3.png",
+            "info": {
+              "rows": [
+                [
+                  "",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p2-表格-4.png",
+            "info": {
+              "rows": [
+                [
+                  "阀1",
+                  "放空阀 J11H-10Q DN25",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "器-1",
+                  "成套加药装置(2罐2泵)",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "泵-5/1~9",
+                  "循环水泵 Q=400m^3/h, H=36m, N=75kW",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "池-1",
+                  "污水池 8mx6mx5m",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "罐-1/1-3",
+                  "储水罐V=15000m^3",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "泵-4/1~2",
+                  "污水提升泵 Q=15m^3/h, H=50m, N=5.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-3/1~2",
+                  "装车泵 Q=120m^3/h, H=30m, N=18.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-2/1~2",
+                  "卸水提升泵(清水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-1/1~2",
+                  "卸水提升泵(采出水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "箱-1/1-4",
+                  "卸水箱 V=24m^3 6000mmx2000mmx2000mm",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "编号",
+                  "名称型号及规格",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "frame": {
+        "has_frame": true,
+        "frame_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p2-图框-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p2-图框-1.png",
+            "设计证书号": "A161000224",
+            "勘察证书号": "B161000224",
+            "制图": "",
+            "设计": "",
+            "校对": "",
+            "审核": "",
+            "项目负责人": "",
+            "审定": "",
+            "项目名称": "长庆油田蒙陕气田米172H区块米8井区8#煤产能建设项目地面工程",
+            "区域名称": "米北-1集气站调整设计",
+            "单元名称": "",
+            "专业单体名称": "",
+            "图纸名称": "工艺自控流程图",
+            "阶段": "施工图",
+            "项目号": "CEDC132S-2024",
+            "比例": "~",
+            "文件号": "DD24132-08-WP-PID-001-2",
+            "日期": "2026-07-03",
+            "专业": "给排水",
+            "版次": "0版",
+            "张数": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\c77f389cfe\\png\\PDF合并-p3.png",
+      "notes": {
+        "has_notes": true,
+        "notes_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p3-说明-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p3-说明-1.png",
+            "info": {
+              "lines": [
+                {
+                  "no": "",
+                  "kind": "标题",
+                  "text": "说明：",
+                  "line": 1
+                },
+                {
+                  "no": "1、",
+                  "kind": "条文",
+                  "text": "本流程为米北-1集气站采出水存储及装卸车区流程图。",
+                  "line": 2
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→卸车区→管输至站内原水罐",
+                  "line": 3
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "站内净化水来水→1.5万方储水罐→装车区→拉运",
+                  "line": 4
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "站内净化水来水→1.5万方储水罐→外输区(预留)→外输",
+                  "line": 5
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "站内净化水来水→1.5万方储水罐→溢流放空→污水池",
+                  "line": 6
+                },
+                {
+                  "no": "2、",
+                  "kind": "条文",
+                  "text": "管线字母代号对应介质",
+                  "line": 7
+                },
+                {
+                  "no": "",
+                  "kind": "条文",
+                  "text": "管线、阀门编号及设备位号按照油田产建数字化交付编码规定执行。对应介质代号如下：",
+                  "line": 8
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chart": {
+        "has_chart": true,
+        "chart_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-1.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-2.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-3.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-4.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-1.png",
+            "info": {
+              "rows": [
+                [
+                  "序号",
+                  "代号",
+                  "中文名称",
+                  "序号",
+                  "代号",
+                  "中文名称"
+                ],
+                [
+                  "1",
+                  "C",
+                  "化学药剂",
+                  "8",
+                  "OS",
+                  "含油污泥"
+                ],
+                [
+                  "2",
+                  "RWR",
+                  "循环水(回)",
+                  "9",
+                  "WO",
+                  "污油"
+                ],
+                [
+                  "3",
+                  "RWS",
+                  "循环水(供)",
+                  "10",
+                  "PD",
+                  "重力流排污"
+                ],
+                [
+                  "4",
+                  "DGW",
+                  "气田采出水",
+                  "11",
+                  "CR",
+                  "地上污水罐上清液"
+                ],
+                [
+                  "5",
+                  "TOD",
+                  "处理后回注采出水",
+                  "12",
+                  "FRD",
+                  "初期雨水"
+                ],
+                [
+                  "6",
+                  "RW",
+                  "清水",
+                  "13",
+                  "CRD",
+                  "清洁雨水"
+                ],
+                [
+                  "7",
+                  "RUD",
+                  "回用水",
+                  "14",
+                  "SD",
+                  "生活污水"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-2.png",
+            "info": {
+              "rows": [
+                [
+                  "字母",
+                  "首位功能",
+                  "后继功能",
+                  "字母",
+                  "首位功能",
+                  "后继功能"
+                ],
+                [
+                  "T",
+                  "温 度",
+                  "变 送",
+                  "H",
+                  "人工触发",
+                  ""
+                ],
+                [
+                  "P",
+                  "压 力",
+                  "",
+                  "C",
+                  "",
+                  "控 制"
+                ],
+                [
+                  "L",
+                  "液 位",
+                  "",
+                  "I",
+                  "",
+                  "显 示"
+                ],
+                [
+                  "F",
+                  "流 量",
+                  "",
+                  "R",
+                  "",
+                  "记 录"
+                ],
+                [
+                  "A",
+                  "分 析",
+                  "报 警",
+                  "U",
+                  "多变量",
+                  "多功能"
+                ],
+                [
+                  "M",
+                  "水分或湿度",
+                  "中、中间",
+                  "V",
+                  "",
+                  "阀 门"
+                ],
+                [
+                  "S",
+                  "速度或频率",
+                  "开关或联锁",
+                  "X",
+                  "未分类",
+                  "未分类"
+                ],
+                [
+                  "Z",
+                  "状 态",
+                  "驱动器、执行元件",
+                  "Y",
+                  "",
+                  "继电器、转换器"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-3.png",
+            "info": {
+              "rows": [
+                [
+                  "",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p3-表格-4.png",
+            "info": {
+              "rows": [
+                [
+                  "阀1",
+                  "放空阀 J11H-10Q DN25",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "器-1",
+                  "成套加药装置(2罐2泵)",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "泵-5/1~9",
+                  "循环水泵 Q=400m^3/h, H=36m, N=75kW",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "池-1",
+                  "污水池 8mx6mx5m",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "罐-1/1-3",
+                  "储水罐V=15000m^3",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "泵-4/1~2",
+                  "污水提升泵 Q=15m^3/h, H=50m, N=5.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-3/1~2",
+                  "装车泵 Q=120m^3/h, H=30m, N=18.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-2/1~2",
+                  "卸水提升泵(清水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-1/1~2",
+                  "卸水提升泵(采出水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "箱-1/1-4",
+                  "卸水箱 V=24m^3 6000mmx2000mmx2000mm",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "编号",
+                  "名称型号及规格",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "frame": {
+        "has_frame": true,
+        "frame_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p3-图框-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p3-图框-1.png",
+            "设计证书号": "A161000224",
+            "勘察证书号": "B161000224",
+            "制图": "",
+            "设计": "",
+            "校对": "",
+            "审核": "",
+            "项目负责人": "",
+            "审定": "",
+            "项目名称": "长庆油田蒙陕气田米172H区块米8井区8#煤产能建设项目地面工程",
+            "区域名称": "米北-1集气站调整设计",
+            "单元名称": "",
+            "专业单体名称": "",
+            "图纸名称": "工艺自控流程图",
+            "阶段": "施工图",
+            "项目号": "CEDC132S-2024",
+            "比例": "~",
+            "文件号": "DD24132-08-WP-PID-001-3",
+            "日期": "2026-07-03",
+            "专业": "给排水",
+            "版次": "0版",
+            "张数": ""
+          }
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\c77f389cfe\\png\\PDF合并-p4.png",
+      "notes": {
+        "has_notes": true,
+        "notes_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p4-说明-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\notes\\PDF合并-p4-说明-1.png",
+            "info": {
+              "lines": [
+                {
+                  "no": "",
+                  "kind": "标题",
+                  "text": "说明：",
+                  "line": 1
+                },
+                {
+                  "no": "1、",
+                  "kind": "条文",
+                  "text": "本流程为米北-1集气站采出水存储及装卸车区流程图。",
+                  "line": 2
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→卸车区→管输至站内原水罐",
+                  "line": 3
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "站内净化水来水→污水池",
+                  "line": 4
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→装车区→拉运",
+                  "line": 5
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→外输区(预留)→外输",
+                  "line": 6
+                },
+                {
+                  "no": "",
+                  "kind": "框图节点",
+                  "text": "清水拉运来水→1.5万方储水罐→溢流放空→污水池",
+                  "line": 7
+                },
+                {
+                  "no": "2、",
+                  "kind": "条文",
+                  "text": "管线字母代号对应介质",
+                  "line": 8
+                },
+                {
+                  "no": "",
+                  "kind": "条文",
+                  "text": "管线、阀门编号及设备位号按照油田产建数字化交付编码规定执行。对应介质代号如下：",
+                  "line": 9
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chart": {
+        "has_chart": true,
+        "chart_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-1.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-2.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-3.png",
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-4.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-1.png",
+            "info": {
+              "rows": [
+                [
+                  "序号",
+                  "代号",
+                  "中文名称",
+                  "序号",
+                  "代号",
+                  "中文名称"
+                ],
+                [
+                  "1",
+                  "C",
+                  "化学药剂",
+                  "8",
+                  "OS",
+                  "含油污泥"
+                ],
+                [
+                  "2",
+                  "RWR",
+                  "循环水(回)",
+                  "9",
+                  "WO",
+                  "污油"
+                ],
+                [
+                  "3",
+                  "RWS",
+                  "循环水(供)",
+                  "10",
+                  "PD",
+                  "重力流排污"
+                ],
+                [
+                  "4",
+                  "DGW",
+                  "气田采出水",
+                  "11",
+                  "CR",
+                  "地上污水罐上清液"
+                ],
+                [
+                  "5",
+                  "TOD",
+                  "处理后回注采出水",
+                  "12",
+                  "FRD",
+                  "初期雨水"
+                ],
+                [
+                  "6",
+                  "RW",
+                  "清水",
+                  "13",
+                  "CRD",
+                  "清洁雨水"
+                ],
+                [
+                  "7",
+                  "RUD",
+                  "回用水",
+                  "14",
+                  "SD",
+                  "生活污水"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-2.png",
+            "info": {
+              "rows": [
+                [
+                  "字母",
+                  "首位功能",
+                  "后继功能",
+                  "字母",
+                  "首位功能",
+                  "后继功能"
+                ],
+                [
+                  "T",
+                  "温 度",
+                  "变 送",
+                  "H",
+                  "人工触发",
+                  ""
+                ],
+                [
+                  "P",
+                  "压 力",
+                  "",
+                  "C",
+                  "",
+                  "控 制"
+                ],
+                [
+                  "L",
+                  "液 位",
+                  "",
+                  "I",
+                  "",
+                  "显 示"
+                ],
+                [
+                  "F",
+                  "流 量",
+                  "",
+                  "R",
+                  "",
+                  "记 录"
+                ],
+                [
+                  "A",
+                  "分 析",
+                  "报 警",
+                  "U",
+                  "多变量",
+                  "多功能"
+                ],
+                [
+                  "M",
+                  "水分或湿度",
+                  "中、中间",
+                  "V",
+                  "",
+                  "阀 门"
+                ],
+                [
+                  "S",
+                  "速度或频率",
+                  "开关或联锁",
+                  "X",
+                  "未分类",
+                  "未分类"
+                ],
+                [
+                  "Z",
+                  "状 态",
+                  "驱动器、执行元件",
+                  "Y",
+                  "",
+                  "继电器、转换器"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-3.png",
+            "info": {
+              "rows": [
+                [
+                  "",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          },
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\charts\\PDF合并-p4-表格-4.png",
+            "info": {
+              "rows": [
+                [
+                  "阀1",
+                  "放空阀 J11H-10Q DN25",
+                  "个",
+                  "38",
+                  ""
+                ],
+                [
+                  "器-1",
+                  "成套加药装置(2罐2泵)",
+                  "套",
+                  "1",
+                  ""
+                ],
+                [
+                  "泵-5/1~9",
+                  "循环水泵 Q=400m^3/h, H=36m, N=75kW",
+                  "台",
+                  "9",
+                  ""
+                ],
+                [
+                  "池-1",
+                  "污水池 8mx6mx5m",
+                  "座",
+                  "1",
+                  ""
+                ],
+                [
+                  "罐-1/1-3",
+                  "储水罐V=15000m^3",
+                  "具",
+                  "3",
+                  ""
+                ],
+                [
+                  "泵-4/1~2",
+                  "污水提升泵 Q=15m^3/h, H=50m, N=5.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-3/1~2",
+                  "装车泵 Q=120m^3/h, H=30m, N=18.5kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-2/1~2",
+                  "卸水提升泵(清水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "泵-1/1~2",
+                  "卸水提升泵(采出水) Q=120m^3/h, H=60m, N=30kW",
+                  "台",
+                  "2",
+                  ""
+                ],
+                [
+                  "箱-1/1-4",
+                  "卸水箱 V=24m^3 6000mmx2000mmx2000mm",
+                  "具",
+                  "4",
+                  ""
+                ],
+                [
+                  "编号",
+                  "名称型号及规格",
+                  "单位",
+                  "数量",
+                  "备注"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "frame": {
+        "has_frame": true,
+        "frame_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p4-图框-1.png"
+        ],
+        "info": [
+          {
+            "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pid\\5ee7d10928d3\\crops\\frames\\PDF合并-p4-图框-1.png",
+            "设计证书号": "A161000224",
+            "勘察证书号": "B161000224",
+            "制图": "",
+            "设计": "",
+            "校对": "",
+            "审核": "",
+            "项目负责人": "",
+            "审定": "",
+            "项目名称": "长庆油田蒙陕气田米172H区块米8井区8#煤产能建设项目地面工程",
+            "区域名称": "米北-1集气站调整设计",
+            "单元名称": "",
+            "专业单体名称": "",
+            "图纸名称": "工艺自控流程图",
+            "阶段": "施工图",
+            "项目号": "CEDC132S-2024",
+            "比例": "~",
+            "文件号": "DD24132-08-WP-PID-001-4",
+            "日期": "2026-07-03",
+            "专业": "给排水",
+            "版次": "0版",
+            "张数": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+id: form.frame_sign_rule
+name: 签署是否互审
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第8.2.4条：在设计文件的同一签署栏内，设计（编制）、校对、审核不得兼签。第8.2.1条：设计、校对按资格签署，审核、审定按批准的人员资格签署。
+  栏位为空时由签署栏是否填写检查报出。公司发文名单不在项目里，本点只查这三级是否同一人。
+needs:
+  - frame_rows
+checks:
+  - op: sign_conflict
+    items: frame_rows.items
+    pairs:
+      - [设计, 校对]
+      - [设计, 审核]
+      - [校对, 审核]
+    type: sign_conflict
+    msg: "{drawing_no} {left}与{right}同为「{value}」"
+    suggestion: 设计、校对、审核分开签署

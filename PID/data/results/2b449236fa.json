@@ -1,0 +1,81 @@
+{
+  "task_id": "2b449236fa",
+  "project_id": "",
+  "files": [],
+  "skill_ids": [
+    "form.pid_paper"
+  ],
+  "storage_dir": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+  "artifacts": {
+    "file_types": {
+      "catalog": "目录.doc",
+      "pid": "工艺流程自控图-模型.pdf",
+      "plan": "平面图-模型.pdf",
+      "all_files": [
+        "工艺流程自控图-模型.pdf",
+        "平面图-模型.pdf",
+        "材料表.doc",
+        "目录.doc",
+        "设备表.doc",
+        "说明书.doc"
+      ],
+      "logs": [
+        "文件名命中PID：工艺流程自控图-模型.pdf",
+        "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+        "文件名命中目录：目录.doc"
+      ]
+    },
+    "folder": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+    "layout": {
+      "_stub": true,
+      "items": [],
+      "note": "未实现：YOLO / PP-DocLayout"
+    },
+    "paper": {
+      "items": [
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "paper_size": "A1",
+          "paper_width_mm": 841.0,
+          "paper_height_mm": 594.1
+        },
+        {
+          "file": "平面图-模型.pdf",
+          "paper_size": "A1",
+          "paper_width_mm": 841.0,
+          "paper_height_mm": 594.1
+        }
+      ],
+      "logs": []
+    }
+  },
+  "issues": [],
+  "logs": [
+    "detect: layout",
+    "extract: ['file_types', 'paper']",
+    "reviewed form.pid_paper"
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "issue_count": 0
+  },
+  "file_types": {
+    "catalog": "目录.doc",
+    "pid": "工艺流程自控图-模型.pdf",
+    "plan": "平面图-模型.pdf",
+    "all_files": [
+      "工艺流程自控图-模型.pdf",
+      "平面图-模型.pdf",
+      "材料表.doc",
+      "目录.doc",
+      "设备表.doc",
+      "说明书.doc"
+    ],
+    "logs": [
+      "文件名命中PID：工艺流程自控图-模型.pdf",
+      "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+      "文件名命中目录：目录.doc"
+    ]
+  }
+}

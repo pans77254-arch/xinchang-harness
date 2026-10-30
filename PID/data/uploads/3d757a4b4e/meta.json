@@ -1,0 +1,134 @@
+{
+  "task_id": "3d757a4b4e",
+  "files": [
+    {
+      "id": "PDF合并",
+      "name": "PDF合并.pdf",
+      "path": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\PDF合并.pdf",
+      "page_count": 4,
+      "dpi": 300,
+      "pages": [
+        {
+          "page": 1,
+          "rotation": 90,
+          "width_pt": 2384.0,
+          "height_pt": 1684.0,
+          "width_mm": 841.0,
+          "height_mm": 594.1,
+          "size": "A1",
+          "dpi": 300,
+          "width_px": 9934,
+          "height_px": 7017,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p1.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        },
+        {
+          "page": 2,
+          "rotation": 90,
+          "width_pt": 2384.0,
+          "height_pt": 1684.0,
+          "width_mm": 841.0,
+          "height_mm": 594.1,
+          "size": "A1",
+          "dpi": 300,
+          "width_px": 9934,
+          "height_px": 7017,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p2.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        },
+        {
+          "page": 3,
+          "rotation": 90,
+          "width_pt": 2384.0,
+          "height_pt": 1684.0,
+          "width_mm": 841.0,
+          "height_mm": 594.1,
+          "size": "A1",
+          "dpi": 300,
+          "width_px": 9934,
+          "height_px": 7017,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p3.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        },
+        {
+          "page": 4,
+          "rotation": 90,
+          "width_pt": 2384.0,
+          "height_pt": 1684.0,
+          "width_mm": 841.0,
+          "height_mm": 594.1,
+          "size": "A1",
+          "dpi": 300,
+          "width_px": 9934,
+          "height_px": 7017,
+          "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p4.png",
+          "notes": {
+            "has_notes": false,
+            "notes_path": [],
+            "info": []
+          },
+          "chart": {
+            "has_chart": false,
+            "chart_path": [],
+            "info": []
+          },
+          "frame": {
+            "has_frame": false,
+            "frame_path": [],
+            "info": []
+          }
+        }
+      ],
+      "png": [
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p1.png",
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p2.png",
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p3.png",
+        "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\png\\PDF合并-p4.png"
+      ],
+      "info": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\uploads\\3d757a4b4e\\PDF合并.info.json"
+    }
+  ],
+  "status": "uploaded"
+}

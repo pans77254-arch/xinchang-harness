@@ -1,0 +1,21 @@
+# 审查点 Skill 模板。复制本文件改 id 后放入本目录即可被总控加载。
+# 禁止在 YAML 里写 Python；禁止新增算子名（先改 operators.py）。
+
+id: pack.example_skill
+name: 示例审查点（请复制后改名）
+pack: form          # form | pid | site
+enabled: false      # 示例默认关闭
+severity: medium    # high | medium | low
+basis: ""           # 规范条款，给人看
+needs:              # 声明工件，总控按并集调工具。可选：layout / toc / title_block / file_list / legend / pid_graph / site_features
+  - file_list
+checks:
+  - op: set_diff    # set_diff | eq | seq | required_fields
+    left: toc.drawing_nos
+    right: file_list.drawing_nos
+    type_left: missing_file
+    type_right: extra_file
+    msg_left: "目录有、归档无：{items}"
+    msg_right: "归档有、目录无：{items}"
+    suggestion_left: 补归档或改目录
+    suggestion_right: 补目录或剔除多余文件

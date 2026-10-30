@@ -1,0 +1,33 @@
+id: form.frame_consistent
+name: 同组图框字段一致
+pack: form
+level: project
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.2.2条第3款：阶段栏填写该设计项目的设计阶段，「初步设计」或「施工图」，同一套图纸必须完全一致。第7.1.1条：每个工程设计项目均应编制项目号，且应保持唯一。
+  本点同时核对项目名称、项目号、专业。版次由版次不统一检查负责。
+needs:
+  - frame_values
+checks:
+  - op: eq
+    field: frame_values.阶段
+    type: stage_mismatch
+    msg: "各图阶段不一致：{items}"
+    suggestion: 统一为同一设计阶段
+  - op: eq
+    field: frame_values.项目名称
+    type: project_name_mismatch
+    msg: "各图项目名称不一致：{items}"
+    suggestion: 统一项目名称
+  - op: eq
+    field: frame_values.项目号
+    type: project_no_mismatch
+    msg: "各图项目号不一致：{items}"
+    suggestion: 统一项目号
+  - op: eq
+    field: frame_values.专业
+    type: discipline_mismatch
+    msg: "各图专业不一致：{items}"
+    suggestion: 核对专业栏

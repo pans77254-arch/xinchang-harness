@@ -1,0 +1,19 @@
+id: form.frame_required
+name: 标题栏必填
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.1.1条：设计文件应设置标题栏。第5.1.2.2条：项目名称栏填写设计项目名称及设计文件名称；设计文件名称分行写出区域、单元、专业单体及图纸名称，较小项目可省略区域或单元；阶段填「初步设计」或「施工图」；比例填主要图比例；日期、项目号、文件号、专业、最新版次均应填写。第11.3.2.2条：输出产品应标识设计证书编号、勘察证书编号、工程名称、文件号、项目号、图名、日期、设计阶段。
+  必填：项目名称、图纸名称、比例、文件号、项目号、阶段、日期、专业、版次、设计证书号。单元名称、专业单体名称可省略。
+needs:
+  - frame_rows
+checks:
+  - op: required_fields
+    items: frame_rows.items
+    fields: [项目名称, 图纸名称, 比例, 文件号, 项目号, 阶段, 日期, 专业, 版次, 设计证书号]
+    type: missing_field
+    msg: "{drawing_no} 标题栏缺 {field}"
+    suggestion: 按图框补全对应栏

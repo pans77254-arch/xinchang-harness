@@ -1,0 +1,19 @@
+id: form.frame_survey_cert
+name: 勘察证书号
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: high
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.2.2条第1款：设计证书编号、勘察证书编号设在设计单位名称栏下方。第11.2.2.4条：资质证书编号必须对应资质所承担的业务范围。
+  有效编号见《关于启用5枚勘察设计文件专用章的通知》（2026年1月26日）：新章设计证书 A161000224，原章 A261000221 继续有效，按附件2适用资质选用。勘察证书号取同一编号的 B 号。
+needs:
+  - frame_rows
+checks:
+  - op: survey_cert
+    items: frame_rows.items
+    type: survey_cert_error
+    msg: "{drawing_no} 勘察证书号{problem}"
+    suggestion: 按专业对应的启用证书号改为同号的 B 编号
+    certs_file: _seal_certs.yaml

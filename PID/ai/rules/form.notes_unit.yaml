@@ -1,0 +1,18 @@
+id: form.notes_unit
+name: 说明栏单位和文字格式
+pack: form
+level: drawing
+enabled: true
+when: has_notes
+severity: low
+basis: >
+  CEDC-QHSE-T04-2024 第6.1.7条：数值用正体阿拉伯数字，比例和参数范围按该条书写。第6.1.8条：计量单位及符号按 GB 3100、GB/T 3101，同一设计文件中表示方法应一致。
+  本点检查说明栏的 MPa、m²、m³、mm²、mm³、kg，以及括号和连续标点。错别字由说明栏错别字检查负责。
+needs:
+  - notes
+checks:
+  - op: notes_format
+    items: notes.files
+    type: notes_format
+    msg: "{drawing_no} 说明「{wrong}」应为「{correct}」"
+    suggestion: 改正单位写法或补齐括号

@@ -1,0 +1,18 @@
+id: form.frame_file_prefix
+name: 图号前缀一致
+pack: form
+level: project
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第7.2.2条：设计文件号为设计阶段代码+项目年号+项目顺序号-总目序号总分目序号-专业代码-文件代码-文件序号。示例 DD25001-0101-OP-01-DWG-001。
+  同组图纸去掉最后一段文件序号后，前缀必须相同。序号本身由连续性检查负责。
+needs:
+  - frame_file_prefixes
+checks:
+  - op: file_prefix
+    field: frame_file_prefixes
+    type: file_prefix_mismatch
+    msg: "图号前缀不一致：{items}"
+    suggestion: 核对同组文件号除末段序号外是否一致

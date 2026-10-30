@@ -1,0 +1,20 @@
+id: form.frame_format
+name: 标题栏格式
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.2.2条：日期用阿拉伯数字年.月.日；阶段填「初步设计」或「施工图」；比例填主要图比例，无比例填∽，多比例填见图。第9.3.1条：过程版为 A、B、C…版，批准后为 0 版，其后为 1、2、3…版。第11.2.2.4条：资质证书编号必须对应资质所承担的业务范围。
+  空栏由标题栏必填报出。图纸名称不得与项目名称相同。
+needs:
+  - frame_rows
+checks:
+  - op: field_format
+    items: frame_rows.items
+    fields: [日期, 文件号, 项目号, 阶段, 比例, 设计证书号, 版次]
+    certs_file: _seal_certs.yaml
+    type: field_format
+    msg: "{drawing_no} {field}{problem}"
+    suggestion: 按标题栏栏位写法改正

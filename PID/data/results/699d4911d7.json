@@ -1,0 +1,815 @@
+{
+  "task_id": "699d4911d7",
+  "project_id": "",
+  "files": [],
+  "skill_ids": [
+    "form.pid_paper",
+    "form.pid_seq"
+  ],
+  "storage_dir": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+  "artifacts": {
+    "toc": {
+      "public": {
+        "project_no": "GFDG1516-2025",
+        "project_name": "长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）",
+        "discipline": "油气集输",
+        "stage": "初步设计",
+        "date": "2025-07-07",
+        "file_no": "BD25151-0102-OP-IDX",
+        "doc_title": "资料图纸 目录",
+        "revision": "0版",
+        "sheet_count": "1"
+      },
+      "entries": [
+        {
+          "seq": "1",
+          "file_no": "BD25151-0102-OP-DES",
+          "name": "说明书",
+          "revision": "0",
+          "sheet_count": "12",
+          "equivalent": "1.50",
+          "remark": ""
+        },
+        {
+          "seq": "2",
+          "file_no": "BD25151-0102-OP-EQL",
+          "name": "设备表",
+          "revision": "0",
+          "sheet_count": "14",
+          "equivalent": "1.75",
+          "remark": ""
+        },
+        {
+          "seq": "3",
+          "file_no": "BD25151-0102-OP-MTO",
+          "name": "材料表",
+          "revision": "0",
+          "sheet_count": "6",
+          "equivalent": "0.75",
+          "remark": ""
+        },
+        {
+          "seq": "4",
+          "file_no": "BD25151-0102-OP-PLA-001",
+          "name": "岭十二转改造平面布置图",
+          "revision": "0",
+          "sheet_count": "1",
+          "equivalent": "0.375",
+          "remark": ""
+        },
+        {
+          "seq": "5",
+          "file_no": "BD25151-0102-OP-PLA-002",
+          "name": "西十转扩建造平面布置图",
+          "revision": "0",
+          "sheet_count": "1",
+          "equivalent": "1.50",
+          "remark": ""
+        },
+        {
+          "seq": "6",
+          "file_no": "BD25151-0102-OP-PID-001",
+          "name": "岭十二转改造工艺自控流程图",
+          "revision": "0",
+          "sheet_count": "1",
+          "equivalent": "0.375",
+          "remark": "GC1"
+        },
+        {
+          "seq": "7",
+          "file_no": "BD25151-0102-OP-PID-002",
+          "name": "西十转扩建造工艺自控流程图",
+          "revision": "0",
+          "sheet_count": "1",
+          "equivalent": "1.50",
+          "remark": "GC1"
+        },
+        {
+          "seq": "8",
+          "file_no": "BD25151-0102-OP-IDX",
+          "name": "资料图纸目录",
+          "revision": "0",
+          "sheet_count": "1",
+          "equivalent": "0.125",
+          "remark": ""
+        }
+      ],
+      "file_nos": [
+        "BD25151-0102-OP-DES",
+        "BD25151-0102-OP-EQL",
+        "BD25151-0102-OP-MTO",
+        "BD25151-0102-OP-PLA-001",
+        "BD25151-0102-OP-PLA-002",
+        "BD25151-0102-OP-PID-001",
+        "BD25151-0102-OP-PID-002",
+        "BD25151-0102-OP-IDX"
+      ],
+      "drawing_nos": [
+        "BD25151-0102-OP-DES",
+        "BD25151-0102-OP-EQL",
+        "BD25151-0102-OP-MTO",
+        "BD25151-0102-OP-PLA-001",
+        "BD25151-0102-OP-PLA-002",
+        "BD25151-0102-OP-PID-001",
+        "BD25151-0102-OP-PID-002",
+        "BD25151-0102-OP-IDX"
+      ]
+    },
+    "title_block": {
+      "items": [
+        {
+          "file_no": "BD25151-0102-OP-IDX",
+          "name": "资料图纸 目录",
+          "project_no": "GFDG1516-2025",
+          "project_name": "长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）",
+          "discipline": "油气集输",
+          "stage": "初步设计",
+          "date": "2025-07-07",
+          "revision": "0版",
+          "sheet_count": "1",
+          "page_count": 0,
+          "file": "目录.doc",
+          "kind": "catalog",
+          "drawing_no": "BD25151-0102-OP-IDX",
+          "is_catalog": true,
+          "paper_size": "A4",
+          "paper_width_mm": 210.0,
+          "paper_height_mm": 297.0
+        },
+        {
+          "file_no": "BD25151-0102-OP-MTO",
+          "name": "材料表",
+          "project_no": "CEDC151C-2025",
+          "project_name": "长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程骨架工程站场（一）工艺部分",
+          "discipline": "油气集输",
+          "stage": "施工图",
+          "date": "2025.07.07",
+          "revision": "A版",
+          "sheet_count": "6",
+          "file": "材料表.doc",
+          "page_count": 0,
+          "kind": "word",
+          "drawing_no": "BD25151-0102-OP-MTO",
+          "is_catalog": false,
+          "paper_size": "A4",
+          "paper_width_mm": 210.0,
+          "paper_height_mm": 297.0
+        },
+        {
+          "file_no": "BD25151-0102-OP-EQL",
+          "name": "设备表",
+          "project_no": "CEDC151C-2025",
+          "project_name": "长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套站场（二）工艺部分",
+          "discipline": "油气集输",
+          "stage": "初步设计",
+          "date": "2025.07.07",
+          "revision": "0版",
+          "sheet_count": "14",
+          "file": "设备表.doc",
+          "page_count": 0,
+          "kind": "word",
+          "drawing_no": "BD25151-0102-OP-EQL",
+          "is_catalog": false,
+          "paper_size": "A4",
+          "paper_width_mm": 210.0,
+          "paper_height_mm": 297.0
+        },
+        {
+          "file_no": "BD25151-012-OP-DES",
+          "name": "说明书",
+          "project_no": "CEDC151S-2025",
+          "project_name": "长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程骨架工程站场（一）工艺部分",
+          "discipline": "油气集输",
+          "stage": "初步设计",
+          "date": "2025.07.07",
+          "revision": "A版",
+          "sheet_count": "13",
+          "file": "说明书.doc",
+          "page_count": 0,
+          "kind": "word",
+          "drawing_no": "BD25151-012-OP-DES",
+          "is_catalog": false,
+          "paper_size": "A4",
+          "paper_width_mm": 210.0,
+          "paper_height_mm": 297.0
+        },
+        {
+          "file_no": "CEDC2102-2025",
+          "name": "工艺自控流程图图例标准图集",
+          "project_no": "",
+          "project_name": "",
+          "discipline": "",
+          "stage": "",
+          "date": "2025年09月",
+          "revision": "0",
+          "sheet_count": "",
+          "file": "CEDC2102汇总.pdf",
+          "page_count": 20,
+          "kind": "pdf",
+          "drawing_no": "CEDC2102-2025",
+          "is_catalog": false,
+          "paper_size": "A3",
+          "paper_width_mm": 420.2,
+          "paper_height_mm": 297.0
+        },
+        {
+          "file_no": "BD25151-0102-0P-PID-001",
+          "name": "工艺自控流程图",
+          "project_no": "CEDC151C-2025",
+          "project_name": "长庆油田页岩油2025年产能建设项目地面工程 里180区长7页岩油2025年产能建设项目地面工程 骨架工程站场（一）",
+          "discipline": "石油集输",
+          "stage": "施工图",
+          "date": "2025.7.7",
+          "revision": "A 版",
+          "sheet_count": "",
+          "file": "工艺流程自控图-模型.pdf",
+          "page_count": 1,
+          "kind": "pdf",
+          "drawing_no": "BD25151-0102-0P-PID-001",
+          "is_catalog": false,
+          "paper_size": "A1",
+          "paper_width_mm": 841.0,
+          "paper_height_mm": 594.1
+        },
+        {
+          "file_no": "BD25151-0102-0P-PLA-001",
+          "name": "平面布置图",
+          "project_no": "CEDC151C-2025",
+          "project_name": "长庆油田页岩油2026年产能地面工程 里180区长7页岩油2025年产能建设项目地面工程 骨架工程站场（一）",
+          "discipline": "油气集输",
+          "stage": "施工图",
+          "date": "2025.7.7",
+          "revision": "A 版",
+          "sheet_count": "",
+          "file": "平面图-模型.pdf",
+          "page_count": 1,
+          "kind": "pdf",
+          "drawing_no": "BD25151-0102-0P-PLA-001",
+          "is_catalog": false,
+          "paper_size": "A1",
+          "paper_width_mm": 841.0,
+          "paper_height_mm": 594.1
+        }
+      ],
+      "file_nos": [
+        "BD25151-0102-OP-IDX",
+        "BD25151-0102-OP-MTO",
+        "BD25151-0102-OP-EQL",
+        "BD25151-012-OP-DES",
+        "CEDC2102-2025",
+        "BD25151-0102-0P-PID-001",
+        "BD25151-0102-0P-PLA-001"
+      ]
+    },
+    "file_list": {
+      "items": [
+        {
+          "id": "CEDC2102汇总",
+          "name": "CEDC2102汇总.pdf",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/CEDC2102汇总.pdf"
+        },
+        {
+          "id": "工艺流程自控图-模型",
+          "name": "工艺流程自控图-模型.pdf",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/工艺流程自控图-模型.pdf"
+        },
+        {
+          "id": "平面图-模型",
+          "name": "平面图-模型.pdf",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/平面图-模型.pdf"
+        },
+        {
+          "id": "材料表",
+          "name": "材料表.doc",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/材料表.doc"
+        },
+        {
+          "id": "目录",
+          "name": "目录.doc",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/目录.doc",
+          "suffix": ".doc"
+        },
+        {
+          "id": "设备表",
+          "name": "设备表.doc",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/设备表.doc"
+        },
+        {
+          "id": "说明书",
+          "name": "说明书.doc",
+          "path": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查/说明书.doc"
+        }
+      ],
+      "unidentified": [],
+      "names": [
+        "CEDC2102汇总.pdf",
+        "工艺流程自控图-模型.pdf",
+        "平面图-模型.pdf",
+        "材料表.doc",
+        "目录.doc",
+        "设备表.doc",
+        "说明书.doc"
+      ]
+    },
+    "file_types": {
+      "catalog": "目录.doc",
+      "pid": "工艺流程自控图-模型.pdf",
+      "plan": "平面图-模型.pdf",
+      "all_files": [
+        "CEDC2102汇总.pdf",
+        "工艺流程自控图-模型.pdf",
+        "平面图-模型.pdf",
+        "材料表.doc",
+        "目录.doc",
+        "设备表.doc",
+        "说明书.doc"
+      ],
+      "logs": [
+        "文件名命中PID：工艺流程自控图-模型.pdf",
+        "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+        "文件名命中目录：目录.doc"
+      ]
+    },
+    "folder": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+    "layout": {
+      "_stub": true,
+      "items": [],
+      "note": "未实现：YOLO / PP-DocLayout"
+    },
+    "paper": {
+      "items": [
+        {
+          "file": "CEDC2102汇总.pdf",
+          "paper_size": "A3",
+          "paper_width_mm": 420.2,
+          "paper_height_mm": 297.0
+        },
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "paper_size": "A1",
+          "paper_width_mm": 841.0,
+          "paper_height_mm": 594.1
+        },
+        {
+          "file": "平面图-模型.pdf",
+          "paper_size": "A1",
+          "paper_width_mm": 841.0,
+          "paper_height_mm": 594.1
+        }
+      ],
+      "logs": []
+    },
+    "pid_sheets": {
+      "file": "工艺流程自控图-模型.pdf",
+      "pages_total": 1,
+      "items": [
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "page": 1,
+          "drawing_no": "BD25151-0102-OP-PID-001",
+          "name": "工艺自控流程图",
+          "sheet_no": "01",
+          "total_sheets": ""
+        }
+      ],
+      "errors": [],
+      "logs": [
+        "extract.pid_sheets: yolo 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 1 页 sheet_no=01",
+        "extract.pid_sheets: 工艺流程自控图-模型.pdf 共 1 页，抽出 1 页，失败 0 页"
+      ]
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "ebaf2f25",
+      "drawing_no": "BD25151-0102-OP-PLA-002",
+      "skill_id": "form.toc_index",
+      "type": "missing_file",
+      "severity": "high",
+      "desc": "目录有该文件，文件夹中没有对应文件：BD25151-0102-OP-PLA-002 西十转扩建造平面布置图",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "补交该文件，或从目录中删除该条",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "d29a443d",
+      "drawing_no": "BD25151-0102-OP-PID-002",
+      "skill_id": "form.toc_index",
+      "type": "missing_file",
+      "severity": "high",
+      "desc": "目录有该文件，文件夹中没有对应文件：BD25151-0102-OP-PID-002 西十转扩建造工艺自控流程图",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "补交该文件，或从目录中删除该条",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "57d96dc1",
+      "drawing_no": "CEDC2102-2025",
+      "skill_id": "form.toc_index",
+      "type": "extra_file",
+      "severity": "high",
+      "desc": "文件夹中有该文件，目录没有对应条目：CEDC2102-2025",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "把该文件补进目录，或从文件夹中移除",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "9f5df141",
+      "drawing_no": "BD25151-0102-OP-EQL",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "设备表.doc 项目号与目录不一致：目录「GFDG1516-2025」，文件「CEDC151C-2025」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目号改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "390acb43",
+      "drawing_no": "BD25151-0102-OP-EQL",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "设备表.doc 项目名称与目录不一致：目录「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）」，文件「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套站场（二）工艺部分」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目名称改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "7ac6e6ad",
+      "drawing_no": "BD25151-0102-OP-MTO",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "材料表.doc 项目号与目录不一致：目录「GFDG1516-2025」，文件「CEDC151C-2025」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目号改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "326a7a16",
+      "drawing_no": "BD25151-0102-OP-MTO",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "材料表.doc 项目名称与目录不一致：目录「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）」，文件「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程骨架工程站场（一）工艺部分」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目名称改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "52c40039",
+      "drawing_no": "BD25151-0102-OP-MTO",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "材料表.doc 设计阶段与目录不一致：目录「初步设计」，文件「施工图」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将设计阶段改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "eace14f2",
+      "drawing_no": "BD25151-0102-OP-MTO",
+      "skill_id": "form.toc_index",
+      "type": "revision_mismatch",
+      "severity": "high",
+      "desc": "材料表.doc 版次与目录不一致：目录「0」，文件「A版」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的版次",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "b1b1c784",
+      "drawing_no": "BD25151-0102-OP-PLA-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "平面图-模型.pdf 项目号与目录不一致：目录「GFDG1516-2025」，文件「CEDC151C-2025」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目号改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "5db1562f",
+      "drawing_no": "BD25151-0102-OP-PLA-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "平面图-模型.pdf 项目名称与目录不一致：目录「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）」，文件「长庆油田页岩油2026年产能地面工程 里180区长7页岩油2025年产能建设项目地面工程 骨架工程站场（一）」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目名称改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "94b7eafc",
+      "drawing_no": "BD25151-0102-OP-PLA-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "平面图-模型.pdf 设计阶段与目录不一致：目录「初步设计」，文件「施工图」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将设计阶段改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "4b96f7f0",
+      "drawing_no": "BD25151-0102-OP-PLA-001",
+      "skill_id": "form.toc_index",
+      "type": "name_mismatch",
+      "severity": "high",
+      "desc": "平面图-模型.pdf 名称与目录不一致：目录「岭十二转改造平面布置图」，文件「平面布置图」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的名称",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "8fa24d1f",
+      "drawing_no": "BD25151-0102-OP-PLA-001",
+      "skill_id": "form.toc_index",
+      "type": "revision_mismatch",
+      "severity": "high",
+      "desc": "平面图-模型.pdf 版次与目录不一致：目录「0」，文件「A 版」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的版次",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "b883516f",
+      "drawing_no": "BD25151-0102-OP-PLA-001",
+      "skill_id": "form.toc_index",
+      "type": "equivalent_mismatch",
+      "severity": "high",
+      "desc": "平面图-模型.pdf 折合1#图纸与计算不符：目录「0.375」，图幅 A1、自然张数 1，应为 1",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按自然张数乘以图幅系数修改目录中的折合1#图纸",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "30ef3596",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 项目号与目录不一致：目录「GFDG1516-2025」，文件「CEDC151C-2025」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目号改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "a655acf7",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 项目名称与目录不一致：目录「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）」，文件「长庆油田页岩油2025年产能建设项目地面工程 里180区长7页岩油2025年产能建设项目地面工程 骨架工程站场（一）」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目名称改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "f48660c9",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 专业与目录不一致：目录「油气集输」，文件「石油集输」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将专业改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "48436ffe",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 设计阶段与目录不一致：目录「初步设计」，文件「施工图」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将设计阶段改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "7fd9dc40",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "name_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 名称与目录不一致：目录「岭十二转改造工艺自控流程图」，文件「工艺自控流程图」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的名称",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "60097166",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "revision_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 版次与目录不一致：目录「0」，文件「A 版」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的版次",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "96a17c30",
+      "drawing_no": "BD25151-0102-OP-PID-001",
+      "skill_id": "form.toc_index",
+      "type": "equivalent_mismatch",
+      "severity": "high",
+      "desc": "工艺流程自控图-模型.pdf 折合1#图纸与计算不符：目录「0.375」，图幅 A1、自然张数 1，应为 1",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按自然张数乘以图幅系数修改目录中的折合1#图纸",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "66a5ae7c",
+      "drawing_no": "BD25151-0102-OP-DES",
+      "skill_id": "form.toc_index",
+      "type": "file_no_mismatch",
+      "severity": "high",
+      "desc": "说明书.doc 文件号与目录不一致：目录「BD25151-0102-OP-DES」，文件「BD25151-012-OP-DES」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的文件号",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "29a75c86",
+      "drawing_no": "BD25151-0102-OP-DES",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "说明书.doc 项目号与目录不一致：目录「GFDG1516-2025」，文件「CEDC151S-2025」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目号改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "c9a862dc",
+      "drawing_no": "BD25151-0102-OP-DES",
+      "skill_id": "form.toc_index",
+      "type": "public_mismatch",
+      "severity": "high",
+      "desc": "说明书.doc 项目名称与目录不一致：目录「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程单井配套注采（一）」，文件「长庆油田页岩油2025年产建地面工程里180区长7页岩油2025年产能建设项目地面工程骨架工程站场（一）工艺部分」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "将项目名称改成与目录页眉一致",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "33a1249a",
+      "drawing_no": "BD25151-0102-OP-DES",
+      "skill_id": "form.toc_index",
+      "type": "revision_mismatch",
+      "severity": "high",
+      "desc": "说明书.doc 版次与目录不一致：目录「0」，文件「A版」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的版次",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "71c838ab",
+      "drawing_no": "BD25151-0102-OP-DES",
+      "skill_id": "form.toc_index",
+      "type": "printed_sheet_mismatch",
+      "severity": "high",
+      "desc": "说明书.doc 页眉或标题栏所写张数与目录不一致：目录「12」，文件「13」",
+      "basis": "设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。",
+      "suggestion": "按目录修改该文件的页眉或标题栏所写张数",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    }
+  ],
+  "logs": [
+    "ingest: 7 个文件，目录=有",
+    "detect_catalog: 命名已命中，跳过内容兜底",
+    "catalog_to_png: 目录.doc type=.doc ok=True",
+    "extract_catalog: error=False",
+    "pdf_to_png: CEDC2102汇总.pdf pages=20 dpi=200",
+    "pdf_to_png: 工艺流程自控图-模型.pdf pages=1 dpi=200",
+    "pdf_to_png: 平面图-模型.pdf pages=1 dpi=200",
+    "word_to_png: 材料表.doc ok=True",
+    "word_to_png: 设备表.doc ok=True",
+    "word_to_png: 说明书.doc ok=True",
+    "extract_files: 材料表.doc file_no=BD25151-0102-OP-MTO",
+    "extract_files: 设备表.doc file_no=BD25151-0102-OP-EQL",
+    "extract_files: 说明书.doc file_no=BD25151-012-OP-DES",
+    "yolo: CEDC2102汇总.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+    "extract_files: CEDC2102汇总.pdf file_no=CEDC2102-2025",
+    "yolo: 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+    "extract_files: 工艺流程自控图-模型.pdf file_no=BD25151-0102-0P-PID-001",
+    "yolo: 平面图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+    "extract_files: 平面图-模型.pdf file_no=BD25151-0102-0P-PLA-001",
+    "assemble: 目录 8 条，文件 7 份",
+    "reviewed form.toc_index",
+    "validate: {'ok': True, 'errors': [], 'issue_count': 27}",
+    "detect: layout",
+    "extract: ['file_types', 'paper', 'pid_sheets']",
+    "reviewed form.pid_paper",
+    "reviewed form.pid_seq"
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "issue_count": 27
+  },
+  "file_types": {
+    "catalog": "目录.doc",
+    "pid": "工艺流程自控图-模型.pdf",
+    "plan": "平面图-模型.pdf",
+    "all_files": [
+      "CEDC2102汇总.pdf",
+      "工艺流程自控图-模型.pdf",
+      "平面图-模型.pdf",
+      "材料表.doc",
+      "目录.doc",
+      "设备表.doc",
+      "说明书.doc"
+    ],
+    "logs": [
+      "文件名命中PID：工艺流程自控图-模型.pdf",
+      "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+      "文件名命中目录：目录.doc"
+    ]
+  }
+}

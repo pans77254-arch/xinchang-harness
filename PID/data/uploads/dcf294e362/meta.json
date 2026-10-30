@@ -1,0 +1,10 @@
+{
+  "task_id": "dcf294e362",
+  "kind": "folder",
+  "folder": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+  "skill_ids": [
+    "form.pid_paper"
+  ],
+  "files": [],
+  "status": "reviewed"
+}

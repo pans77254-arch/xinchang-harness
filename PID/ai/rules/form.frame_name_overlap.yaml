@@ -1,0 +1,20 @@
+id: form.frame_name_overlap
+name: 角图章名称重叠
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.2.2条第2款：项目名称栏填写设计项目名称及设计文件名称；设计文件名称栏目应分行表示区域、单元、专业单体及图纸名称。不需划分区域或单元的较小项目，可省略区域或单元名称。
+  项目名称、区域名称、单元名称、专业单体名称、图纸名称不应彼此相同，较短的名称也不应完整出现在另一栏里。
+needs:
+  - frame_rows
+checks:
+  - op: name_overlap
+    items: frame_rows.items
+    fields: [项目名称, 区域名称, 单元名称, 专业单体名称, 图纸名称]
+    min_len: 4
+    type: name_overlap
+    msg: "{drawing_no} 角图章名称重叠：{left}「{left_value}」与 {right}「{right_value}」"
+    suggestion: 拆开重叠的名称，每栏只保留本级名称

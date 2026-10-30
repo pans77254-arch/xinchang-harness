@@ -1,0 +1,18 @@
+id: form.frame_revision
+name: 版次不统一
+pack: form
+level: project
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第9.3.1条：报批过程版为 A、B、C…版，批准后归为 0 版，其后升版为 1、2、3…版；若仍需报审则为 1A、1B…版。第9.2.2条允许只对修改的部分文件升版。
+  审查点要求同一套图纸版次完全一致。0版和 0 视为相同。有的图填了、有的图没填，也算不统一。
+needs:
+  - frame_rows
+checks:
+  - op: revision_uniform
+    items: frame_rows.items
+    type: revision_mismatch
+    msg: "{desc}"
+    suggestion: 把同套图纸的版次改成同一个值

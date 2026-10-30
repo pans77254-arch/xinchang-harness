@@ -1,0 +1,20 @@
+id: form.frame_sheet_count
+name: 共X张与实际张数
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第5.1.3.2条：分段绘制的设计文件，页码应填写总张数和从左向右排列的张次号，各分段共用一个文件号。
+  标题栏写了「共X张」时，应等于同一图号前缀下的实际张数。没有张数格、栏位也没写出张数时，不报未抽出。
+needs:
+  - frame_rows
+checks:
+  - op: sheet_count
+    items: frame_rows.items
+    type: sheet_count_mismatch
+    type_missing: sheet_count_missing
+    msg: "{drawing_no} 标题栏共 {declared} 张，实际 {actual} 张"
+    msg_missing: "{drawing_no} 标题栏未抽出共X张，实际 {actual} 张"
+    suggestion: 补上标题栏张数，或按实际页数改正

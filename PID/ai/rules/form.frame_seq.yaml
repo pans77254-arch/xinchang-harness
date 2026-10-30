@@ -1,0 +1,18 @@
+id: form.frame_seq
+name: 文件号连续
+pack: form
+level: project
+enabled: true
+when: has_frame
+severity: medium
+basis: >
+  CEDC-QHSE-T04-2024 第7.2.2条第4款：文件序号表示各文件的编制顺序，使用 001～999。同类型文件超过两个时，每个文件均应设置文件顺序号；仅有一个时可省略。
+  本点按文件号最后一段数字检查是否跳号、缺号。
+needs:
+  - frame_file_nos
+checks:
+  - op: seq
+    field: frame_file_nos
+    type: drawing_no_gap
+    msg: "{key} 文件号不连续，缺 {missing}"
+    suggestion: 补图或重排文件号

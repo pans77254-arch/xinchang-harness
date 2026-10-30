@@ -1,0 +1,406 @@
+{
+  "task_id": "8a4b29214a",
+  "project_id": "",
+  "files": [],
+  "skill_ids": [
+    "form.pid_seq"
+  ],
+  "storage_dir": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+  "artifacts": {
+    "file_types": {
+      "catalog": "目录.doc",
+      "pid": "CEDC2102工艺自控流程图.pdf",
+      "plan": "平面图-模型.pdf",
+      "all_files": [
+        "CEDC2102工艺自控流程图.pdf",
+        "工艺流程自控图-模型.pdf",
+        "平面图-模型.pdf",
+        "材料表.doc",
+        "目录.doc",
+        "设备表.doc",
+        "说明书.doc"
+      ],
+      "logs": [
+        "文件名命中PID：CEDC2102工艺自控流程图.pdf",
+        "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+        "文件名命中目录：目录.doc"
+      ]
+    },
+    "folder": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+    "preprocess": {
+      "pid_sheets": {
+        "deskew": true,
+        "skew_mode": "auto",
+        "skew_max": 15.0,
+        "skew_min": 0.5,
+        "skew_fixed": 0.0,
+        "binarize": true,
+        "threshold_method": "otsu",
+        "threshold_value": 127
+      }
+    },
+    "layout": {
+      "_stub": true,
+      "items": [],
+      "note": "未实现：YOLO / PP-DocLayout"
+    },
+    "pid_sheets": {
+      "file": "CEDC2102工艺自控流程图.pdf",
+      "pages_total": 20,
+      "items": [
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 1,
+          "drawing_no": "CEDC2102-2025",
+          "name": "工艺自控流程图图例标准图集",
+          "sheet_no": "",
+          "total_sheets": ""
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 2,
+          "drawing_no": "CEDC2102/目",
+          "name": "目录",
+          "sheet_no": "第1页",
+          "total_sheets": "2"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 3,
+          "drawing_no": "CEDC2102/目",
+          "name": "工艺自控流程图图例标准图集",
+          "sheet_no": "第 2 页",
+          "total_sheets": "2"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 4,
+          "drawing_no": "CEDC2102/明",
+          "name": "说明",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 5,
+          "drawing_no": "C8DC2102.01",
+          "name": "工艺流程设计常用图例（一）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 6,
+          "drawing_no": "CEDC2102-02",
+          "name": "工艺流程设计常用图例（二）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 7,
+          "drawing_no": "CSDC2102-03",
+          "name": "工艺流程设计常用图例（三）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 8,
+          "drawing_no": "CEDC2102-04",
+          "name": "工艺流程设计常用图例（四）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 9,
+          "drawing_no": "CEDC2102-05",
+          "name": "工艺流程设计常用图例（五）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 10,
+          "drawing_no": "CEDC2102.06",
+          "name": "工艺流程设计常用图例（六）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 11,
+          "drawing_no": "CEDC2102-07",
+          "name": "工艺流程设计常用代码（一）",
+          "sheet_no": "共 1 页第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 12,
+          "drawing_no": "CEDC2102.08",
+          "name": "工艺流程设计常用代码（二）",
+          "sheet_no": "1",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 13,
+          "drawing_no": "CFDC2102 09",
+          "name": "工艺流程设计常用代码（三）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 14,
+          "drawing_no": "CEDC2102.10",
+          "name": "工艺自控流程图图例标准图集",
+          "sheet_no": "1",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 15,
+          "drawing_no": "CEDC2102.11",
+          "name": "工艺自控流程图图例标准图集",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 16,
+          "drawing_no": "CEDC2102.12",
+          "name": "工艺自控流程图图例标准图集",
+          "sheet_no": "1",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 17,
+          "drawing_no": "CEDC2102.13",
+          "name": "工艺自控流程图图例标准图集 工艺流程设计仪表常用图例（三）",
+          "sheet_no": "共 1 页第 1 页",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 18,
+          "drawing_no": "CFDC2102-14",
+          "name": "工艺流程设计仪表常用图例（四）",
+          "sheet_no": "1",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 19,
+          "drawing_no": "CEDC2102.15",
+          "name": "工艺自控流程图图例标准图集",
+          "sheet_no": "1",
+          "total_sheets": "1"
+        },
+        {
+          "file": "CEDC2102工艺自控流程图.pdf",
+          "page": 20,
+          "drawing_no": "CEDC2102.16",
+          "name": "工艺工程设计仪表常用图例（六）",
+          "sheet_no": "第 1 页",
+          "total_sheets": "1"
+        }
+      ],
+      "errors": [],
+      "logs": [
+        "extract.pid_sheets: 预处理参数 {'binarize': True, 'threshold_method': 'otsu', 'threshold_value': 127, 'deskew': True, 'skew_mode': 'auto', 'skew_max': 15.0, 'skew_min': 0.5, 'skew_fixed': 0.0}",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p1_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 1 页 sheet_no=",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p2_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 2 页 sheet_no=第1页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p3_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 3 页 sheet_no=第 2 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p4_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 4 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p5_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 5 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p6_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 6 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p7_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 7 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p8_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 8 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p9_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 9 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p10_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 10 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p11_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 11 页 sheet_no=共 1 页第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p12_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 12 页 sheet_no=1",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p13_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 13 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p14_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 14 页 sheet_no=1",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p15_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 15 页 sheet_no=第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p16_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 16 页 sheet_no=1",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p17_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 17 页 sheet_no=共 1 页第 1 页",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p18_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 18 页 sheet_no=1",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p19_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 19 页 sheet_no=1",
+        "image.preprocess: 倾斜 0.00°，小于 0.5°，不矫正",
+        "image.preprocess: 二值化 method=otsu",
+        "image.preprocess: 输出 /data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/data/work/pid_sheets/CEDC2102工艺自控流程图/preprocessed/CEDC2102工艺自控流程图-p20_preprocessed.png",
+        "extract.pid_sheets: yolo CEDC2102工艺自控流程图.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 20 页 sheet_no=第 1 页",
+        "extract.pid_sheets: CEDC2102工艺自控流程图.pdf 共 20 页，抽出 20 页，失败 0 页"
+      ]
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "b0bf13d5",
+      "drawing_no": "CEDC2102工艺自控流程图.pdf",
+      "skill_id": "form.pid_seq",
+      "type": "pid_seq_unparseable",
+      "severity": "medium",
+      "desc": "第 1 页未能抽出页号",
+      "basis": "PID 各页页号应按编号规则连续，无缺号、跳号、重复，且与「共 X 页」标注的总页数一致。 页号取哪个字段、编号怎么拆、按什么步长连续，都在本文件的 checks 里配置。\n",
+      "suggestion": "核对 PID 各页页号编排，补齐缺号或修正重复",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "cf67e1ed",
+      "drawing_no": "CEDC2102工艺自控流程图.pdf",
+      "skill_id": "form.pid_seq",
+      "type": "pid_seq_duplicate",
+      "severity": "high",
+      "desc": "页号 1 重复，出现在第 2、4、5、6、7、8、9、10、11、13、15、17、20 页",
+      "basis": "PID 各页页号应按编号规则连续，无缺号、跳号、重复，且与「共 X 页」标注的总页数一致。 页号取哪个字段、编号怎么拆、按什么步长连续，都在本文件的 checks 里配置。\n",
+      "suggestion": "核对 PID 各页页号编排，补齐缺号或修正重复",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "8e19a28e",
+      "drawing_no": "CEDC2102工艺自控流程图.pdf",
+      "skill_id": "form.pid_seq",
+      "type": "pid_seq_duplicate",
+      "severity": "high",
+      "desc": "页号 1 重复，出现在第 12、14、16、18、19 页",
+      "basis": "PID 各页页号应按编号规则连续，无缺号、跳号、重复，且与「共 X 页」标注的总页数一致。 页号取哪个字段、编号怎么拆、按什么步长连续，都在本文件的 checks 里配置。\n",
+      "suggestion": "核对 PID 各页页号编排，补齐缺号或修正重复",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    },
+    {
+      "issue_id": "1539c389",
+      "drawing_no": "CEDC2102工艺自控流程图.pdf",
+      "skill_id": "form.pid_seq",
+      "type": "pid_seq_total_mismatch",
+      "severity": "medium",
+      "desc": "总页数不符：标注 1，实际 20 页",
+      "basis": "PID 各页页号应按编号规则连续，无缺号、跳号、重复，且与「共 X 页」标注的总页数一致。 页号取哪个字段、编号怎么拆、按什么步长连续，都在本文件的 checks 里配置。\n",
+      "suggestion": "核对 PID 各页页号编排，补齐缺号或修正重复",
+      "x": null,
+      "y": null,
+      "confidence": 0.92,
+      "review_status": "pending"
+    }
+  ],
+  "logs": [
+    "detect: layout",
+    "extract: ['pid_sheets']",
+    "reviewed form.pid_seq"
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "issue_count": 4
+  },
+  "file_types": {
+    "catalog": "目录.doc",
+    "pid": "CEDC2102工艺自控流程图.pdf",
+    "plan": "平面图-模型.pdf",
+    "all_files": [
+      "CEDC2102工艺自控流程图.pdf",
+      "工艺流程自控图-模型.pdf",
+      "平面图-模型.pdf",
+      "材料表.doc",
+      "目录.doc",
+      "设备表.doc",
+      "说明书.doc"
+    ],
+    "logs": [
+      "文件名命中PID：CEDC2102工艺自控流程图.pdf",
+      "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+      "文件名命中目录：目录.doc"
+    ]
+  }
+}

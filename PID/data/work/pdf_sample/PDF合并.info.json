@@ -1,0 +1,87 @@
+{
+  "file": "PDF合并.pdf",
+  "path": "C:\\Users\\磐石\\Desktop\\PDF合并.pdf",
+  "page_count": 4,
+  "pages": [
+    {
+      "page": 1,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pdf_sample\\png\\PDF合并-p1.png",
+      "notes": {
+        "has_notes": true,
+        "notes_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pdf_sample\\crops\\notes\\PDF合并-p1-说明-1.png"
+        ],
+        "info": []
+      },
+      "chart": {
+        "has_chart": true,
+        "chart_path": [
+          "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pdf_sample\\crops\\charts\\PDF合并-p1-表格-1.png"
+        ],
+        "info": []
+      },
+      "frame": {
+        "has_frame": false,
+        "frame_path": [],
+        "info": []
+      }
+    },
+    {
+      "page": 2,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pdf_sample\\png\\PDF合并-p2.png",
+      "notes": {
+        "has_notes": false,
+        "notes_path": [],
+        "info": []
+      },
+      "chart": {
+        "has_chart": false,
+        "chart_path": [],
+        "info": []
+      },
+      "frame": {
+        "has_frame": false,
+        "frame_path": [],
+        "info": []
+      }
+    },
+    {
+      "page": 3,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pdf_sample\\png\\PDF合并-p3.png",
+      "notes": {
+        "has_notes": false,
+        "notes_path": [],
+        "info": []
+      },
+      "chart": {
+        "has_chart": false,
+        "chart_path": [],
+        "info": []
+      },
+      "frame": {
+        "has_frame": false,
+        "frame_path": [],
+        "info": []
+      }
+    },
+    {
+      "page": 4,
+      "metadata_png": "C:\\Users\\磐石\\Desktop\\CQ-DrawingAIReview\\data\\work\\pdf_sample\\png\\PDF合并-p4.png",
+      "notes": {
+        "has_notes": false,
+        "notes_path": [],
+        "info": []
+      },
+      "chart": {
+        "has_chart": false,
+        "chart_path": [],
+        "info": []
+      },
+      "frame": {
+        "has_frame": false,
+        "frame_path": [],
+        "info": []
+      }
+    }
+  ]
+}

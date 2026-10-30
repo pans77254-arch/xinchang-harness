@@ -1,0 +1,34 @@
+id: form.notes_typo
+name: 说明栏错别字检查
+pack: form
+level: drawing
+enabled: true
+when: has_notes
+severity: low
+basis: >
+  CEDC-QHSE-T04-2024《设计文件编制规定》第1章：规范、统一设计文件的格式和编制方法。第6.1节规定正文按章、节、条编写，文字应准确。
+  本点对工艺自控流程图说明栏做错别字形式审查，结论进入人工复核。
+needs:
+  - file_types
+  - notes
+
+# 说明栏抽取（extract.notes）与判定（llm_judge）分开：工具只抄写，算子只判错。
+# 检测来源、切条、送模型分辨率由环境变量控制（NOTES_DETECT_SOURCE / NOTES_STRIP_HEIGHT / NOTES_VLM_MAX_SIDE）。
+checks:
+  - op: llm_judge
+    items: notes.files
+    prompt: judge.notes_typo             # ai/prompts/judge.notes_typo.yaml
+    glossary: _notes_glossary.yaml       # ai/rules 下的专业白名单，按图号专业段（GP/OP/WP）选取
+    min_confidence: 0.7                  # 低于该置信度的候选不出 Issue
+    kinds: [条文, 框图节点]              # 参与判定的行类型；图例、文字代号（表格）与标题暂不判
+    type: notes_typo
+    type_error: notes_typo_tool_error
+    type_missing: pid_not_found
+    # 文案可用变量：{drawing_no} {file} {page} {line} {no} {kind} {text} {wrong} {correct} {reason} {confidence}
+    msg: "{drawing_no} 说明第{no}条疑似错别字：「{wrong}」应为「{correct}」（{reason}）"
+    msg_error: "{drawing_no} 错别字判定失败：{desc}"
+    msg_extract_error: "{drawing_no} 说明栏抽取存在失败：{errors}"
+    msg_missing: 未识别到 PID 图纸，无法检查说明栏错别字
+    suggestion: 核对原图后改正；若为专业术语请加入白名单
+    suggestion_error: 检查说明栏检测权重与大模型服务后重跑
+    suggestion_missing: 确认文件夹内存在工艺自控流程图（PNG/PDF）后重跑

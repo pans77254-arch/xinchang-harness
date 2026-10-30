@@ -1,0 +1,17 @@
+id: form.frame_overflow
+name: 超图框
+pack: form
+level: drawing
+enabled: true
+when: has_frame
+severity: high
+basis: >
+  CEDC-QHSE-T04-2024 第5.3条：图纸图幅采用 SY/T 0003《石油天然气制图标准》的 A0、A1、A2、A3、A4，图面制图标准按 SY/T 0003 执行。
+  工艺图线必须画在绘图区内。右侧说明、表格、图框是专用区，图线贴进这些区域即算超图框。专用区左侧仍是绘图区。区内原来的表格线、说明线、图框线不算。
+needs:
+  - drawing_json
+checks:
+  - op: frame_overflow
+    type: frame_overflow
+    msg: "{drawing_no} 第{page}页工艺图线超出绘图区，进入{where}"
+    suggestion: 把越界图线改回绘图区

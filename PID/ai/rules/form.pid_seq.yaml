@@ -1,0 +1,59 @@
+id: form.pid_seq
+name: PID图纸页号一致性
+pack: form
+level: project
+enabled: true
+severity: medium
+basis: >
+  PID 各页页号应按编号规则连续，无缺号、跳号、重复，且与「共 X 页」标注的总页数一致。
+  页号取哪个字段、编号怎么拆、按什么步长连续，都在本文件的 checks 里配置。
+needs:
+  - pid_sheets
+
+# 图像预处理：PID 每页在 YOLO 裁图框之前先做倾斜校正 + 二值化。
+# 参数由 Tool extract.pid_sheets 读取（artifacts.preprocess.pid_sheets）。
+preprocess:
+  pid_sheets:
+    deskew: true
+    skew_mode: auto             # auto=自动检测；fixed=用 skew_fixed；off=不矫正
+    skew_max: 15.0              # 自动检测的角度上限（±°）
+    skew_min: 0.5               # 小于该角度不矫正，避免过度矫正
+    skew_fixed: 0.0             # fixed 模式的矫正角（度）
+    binarize: true
+    threshold_method: otsu      # otsu=自动阈值；fixed=用 threshold_value；adaptive=自适应
+    threshold_value: 127        # fixed 模式生效
+
+checks:
+  # 差异类型 → 配置键：gap 用 type/msg，duplicate 用 duplicate_type/msg_duplicate，
+  # off_ladder 用 off_ladder_type/msg_off_ladder，total_mismatch 用 total_type/msg_total，
+  # unparseable 用 unparseable_type/msg_unparseable，parity 用 parity_type/msg_parity。
+  - op: seq_audit
+    items: pid_sheets.files
+    field: sheet_no                 # 改用哪个字段做序号，如 drawing_no
+    separators: ["/", "-", "_"]     # 编号命名规则；「/」按 页号/总数 处理。
+                                    # 不配这一项则用默认规则：取最右侧的数字串（001→1、第3页→3）
+    group_by: shape                 # shape=按编号形态分组（纯数字/短横线/斜杠/中文第X页 各成一组）
+                                    # prefix=按前缀字面值分组；all=不分组
+    start_page: 1                   # PDF 物理页起点：前 start_page-1 页（封面/说明/目录）不纳入审查
+    step: 1                         # 1=顺序 1,2,3…；2=隔号 1,3,5… 或 2,4,6…
+    parity: any                     # any | odd | even，限制起始页号的奇偶
+    total_field: total_sheets       # 留空则不核对总页数。注意：起点前的页不计入实际页数，
+                                    # 若项目里「共X页」把封面页也算了，请把这一项留空
+    type: pid_seq_gap
+    duplicate_type: pid_seq_duplicate
+    off_ladder_type: pid_seq_off_ladder
+    total_type: pid_seq_total_mismatch
+    unparseable_type: pid_seq_unparseable
+    parity_type: pid_seq_parity
+    # 文案可用变量：{prefix} 组内前缀（不一致时为空）、{group_label} 组名（如「短横线」）、
+    # {missing}、{value}、{pages}、{declared}、{actual}、{page}、{step}
+    msg: "{prefix}页号不连续，缺 {missing}"
+    msg_duplicate: "{prefix}页号 {value} 重复，出现在第 {pages} 页"
+    msg_off_ladder: "{prefix}页号 {value} 不符合 {step} 号间隔的编排"
+    msg_total: "总页数不符：标注 {declared}，实际 {actual} 页"
+    msg_unparseable: "第 {page} 页未能抽出页号"
+    msg_parity: "{prefix}起始页号 {value} 不符合要求"
+    suggestion: 核对 PID 各页页号编排，补齐缺号或修正重复
+    type_missing: pid_not_found
+    msg_missing: 未识别到 PID 图纸，无法检查页号
+    suggestion_missing: 确认文件夹内存在工艺自控流程图（PID/P&ID）后重跑

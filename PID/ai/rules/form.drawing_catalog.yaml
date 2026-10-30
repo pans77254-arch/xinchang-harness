@@ -1,0 +1,22 @@
+id: form.drawing_catalog
+name: 目录与图纸对应
+pack: form
+level: project
+enabled: true
+when: has_frame
+severity: high
+basis: >
+  CEDC-QHSE-T04-2024 第7.3.1条：目录按专业编制，列出该项设计新编制的全部文字资料和图纸。
+  本点对比目录中的文件号、名称与文件夹、PDF 中的图纸是否一一对应，防止缺图、多图或版本混用。没有目录文件时不能判断缺图、多图。同一文件号出现不同名称或版次，视为版本混用。
+needs:
+  - frame_rows
+  - review_folder
+checks:
+  - op: catalog_files
+    items: frame_rows.items
+    type: version_mix
+    type_missing: catalog_missing
+    msg: "{drawing_no} 同一文件号对应多个名称或版次"
+    msg_missing: 文件夹里没有目录，不能核对缺图、多图
+    suggestion: 放入目录文件后再核对编号和名称
+    suggestion_mix: 核对是否版本混用

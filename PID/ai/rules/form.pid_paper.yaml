@@ -1,0 +1,25 @@
+id: form.pid_paper
+name: PID图纸图幅审查
+pack: form
+level: project
+enabled: true
+severity: high
+basis: 工艺自控流程图（PID/P&ID）应按 A1 图幅输出，图幅不符属形式审查问题。
+needs:
+  - file_types
+  - paper
+checks:
+  - op: expect
+    target: file_types.pid
+    source: paper.items
+    match_by: file
+    field: paper_size
+    label: 图幅
+    expected: A1
+    type: pid_paper_mismatch
+    msg: "PID图纸 {target} 图幅为 {actual}，应为 {expected}"
+    suggestion: 将工艺自控流程图（PID/P&ID）按 A1 图幅输出
+    type_missing: pid_not_found
+    msg_missing: 未识别到 PID 图纸，无法检查图幅
+    msg_notfound: 未找到 {target} 的图幅数据，无法检查图幅
+    suggestion_missing: 确认文件夹内存在工艺自控流程图（PID/P&ID）后重跑

@@ -1,0 +1,86 @@
+{
+  "task_id": "046856688c",
+  "project_id": "",
+  "files": [],
+  "skill_ids": [
+    "form.pid_seq"
+  ],
+  "storage_dir": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+  "artifacts": {
+    "file_types": {
+      "catalog": "目录.doc",
+      "pid": "工艺流程自控图-模型.pdf",
+      "plan": "平面图-模型.pdf",
+      "all_files": [
+        "CEDC2102汇总.pdf",
+        "工艺流程自控图-模型.pdf",
+        "平面图-模型.pdf",
+        "材料表.doc",
+        "目录.doc",
+        "设备表.doc",
+        "说明书.doc"
+      ],
+      "logs": [
+        "文件名命中PID：工艺流程自控图-模型.pdf",
+        "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+        "文件名命中目录：目录.doc"
+      ]
+    },
+    "folder": "/data/zy/changqingProject/ChangQingDrawingReview/CQ-DrawingAIReview/某站形式审查",
+    "layout": {
+      "_stub": true,
+      "items": [],
+      "note": "未实现：YOLO / PP-DocLayout"
+    },
+    "pid_sheets": {
+      "file": "工艺流程自控图-模型.pdf",
+      "pages_total": 1,
+      "items": [
+        {
+          "file": "工艺流程自控图-模型.pdf",
+          "page": 1,
+          "drawing_no": "BD25151-0102-OP-PID-001",
+          "name": "工艺自控流程图",
+          "sheet_no": "01",
+          "total_sheets": ""
+        }
+      ],
+      "errors": [],
+      "logs": [
+        "extract.pid_sheets: yolo 工艺流程自控图-模型.pdf 未裁到图框，整页兜底：找不到图框权重：/data/zy/changqingProject/ChangQingDrawingReview/best.pt",
+        "extract.pid_sheets: 第 1 页 sheet_no=01",
+        "extract.pid_sheets: 工艺流程自控图-模型.pdf 共 1 页，抽出 1 页，失败 0 页"
+      ]
+    }
+  },
+  "issues": [],
+  "logs": [
+    "detect: layout",
+    "extract: ['pid_sheets']",
+    "reviewed form.pid_seq"
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "issue_count": 0
+  },
+  "file_types": {
+    "catalog": "目录.doc",
+    "pid": "工艺流程自控图-模型.pdf",
+    "plan": "平面图-模型.pdf",
+    "all_files": [
+      "CEDC2102汇总.pdf",
+      "工艺流程自控图-模型.pdf",
+      "平面图-模型.pdf",
+      "材料表.doc",
+      "目录.doc",
+      "设备表.doc",
+      "说明书.doc"
+    ],
+    "logs": [
+      "文件名命中PID：工艺流程自控图-模型.pdf",
+      "文件名/CAD后缀命中平面图：平面图-模型.pdf",
+      "文件名命中目录：目录.doc"
+    ]
+  }
+}

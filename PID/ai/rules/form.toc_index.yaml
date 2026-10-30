@@ -1,0 +1,106 @@
+id: form.toc_index
+name: 目录索引一致性
+pack: form
+level: project
+enabled: true
+severity: high
+workflow: form.toc_index
+basis: 设计文件目录与归档文件应对应。目录页眉标题区的项目号、项目名称、专业、阶段、日期是全套文件的公共字段，各文件必须一致。目录表中的文件号、名称、版次、自然张数必须与对应文件一致。折合1#图纸等于自然张数乘以图幅系数。
+detect:
+  category: 图框
+catalog_detect:
+  enabled: true
+  candidates: all
+  prompt: form.toc_index.is_catalog
+  threshold: 0.8
+tools:
+  pdf_dpi: 200
+extract:
+  catalog:
+    prompt: form.toc_index.catalog
+    public_fields:
+      - {name: project_no, desc: 项目号}
+      - {name: project_name, desc: 项目名称，保留全称，去掉换行}
+      - {name: discipline, desc: 专业}
+      - {name: stage, desc: 阶段，按标题栏原文填写}
+      - {name: date, desc: 日期}
+      - {name: file_no, desc: 本目录文件自己的文件号}
+      - {name: doc_title, desc: 标题区的资料名称，如资料图纸目录}
+      - {name: revision, desc: 本目录文件自己的版次，如 0版、A版}
+      - {name: sheet_count, desc: 本目录文件自己的总页数，取「共 X 页」中的 X}
+    row_fields:
+      - {name: seq, desc: 序号}
+      - {name: file_no, desc: 文件号}
+      - {name: name, desc: 名称}
+      - {name: revision, desc: 版次}
+      - {name: sheet_count, desc: 自然张数}
+      - {name: equivalent, desc: 折合1#图纸}
+      - {name: remark, desc: 备注}
+  file:
+    prompt: form.toc_index.file
+    drawing_prompt: form.toc_index.drawing
+    fields:
+      - {name: file_no, desc: 文件号或图号}
+      - {name: name, desc: 资料名称或图名，如说明书、设备表、平面布置图}
+      - {name: project_no, desc: 项目号}
+      - {name: project_name, desc: 项目名称，保留全称，去掉换行}
+      - {name: discipline, desc: 专业}
+      - {name: stage, desc: 阶段}
+      - {name: date, desc: 日期}
+      - {name: revision, desc: 版次}
+      - {name: sheet_count, desc: 页眉或标题栏所写的自然张数，取「共 X 页」或图框张数中的 X}
+    drawing_fields:
+      - {name: design_cert_no, desc: 设计证书号，照抄栏内编号}
+      - {name: survey_cert_no, desc: 勘察证书号，照抄栏内编号}
+      - {name: drawn_by, desc: 制图人，该行签字栏文字}
+      - {name: designed_by, desc: 设计人，该行签字栏文字}
+      - {name: checked_by, desc: 校对人，该行签字栏文字}
+      - {name: reviewed_by, desc: 审核人，该行签字栏文字}
+      - {name: project_lead, desc: 项目负责人，该行签字栏文字}
+      - {name: approved_by, desc: 审定人，该行签字栏文字}
+      - {name: project_name, desc: 项目名称}
+      - {name: area_name, desc: 区域名称}
+      - {name: unit_name, desc: 单元名称}
+      - {name: discipline_unit_name, desc: 专业单体名称}
+      - {name: name, desc: 图纸名称}
+      - {name: stage, desc: 阶段}
+      - {name: project_no, desc: 项目号}
+      - {name: scale, desc: 比例，照抄原文}
+      - {name: file_no, desc: 文件号}
+      - {name: date, desc: 日期}
+      - {name: discipline, desc: 专业}
+      - {name: revision, desc: 版次}
+needs:
+  - toc
+  - title_block
+  - file_list
+checks:
+  - op: flag_items
+    items: file_list.unidentified
+    type: unidentified_file
+    msg: "未能抽出文件号，无法与目录对应：{items}"
+    suggestion: 检查该文件第一页页眉或右下角图框是否印有文件号
+  - op: catalog_align
+    rows: toc.entries
+    items: title_block.items
+    public: toc.public
+    pair_by: [file_no, name]
+    identity_field: file_no
+    public_fields: [project_no, project_name, discipline, stage, date]
+    public_labels:
+      project_no: 项目号
+      project_name: 项目名称
+      discipline: 专业
+      stage: 设计阶段
+      date: 日期
+    row_fields:
+      - {row: name, item: name, label: 名称, type: name_mismatch, when_empty: issue}
+      - {row: revision, item: revision, label: 版次, type: revision_mismatch, when_empty: issue}
+      - {row: sheet_count, item: sheet_count, label: 页眉或标题栏所写张数, type: printed_sheet_mismatch, when_empty: skip}
+      - {row: sheet_count, item: page_count, label: 实际页数, type: sheet_count_mismatch, when_empty: skip}
+    paper_factors:
+      A1: 1
+      A3: 0.25
+      A4: 0.125
+    report_missing: true
+    report_extra: true

@@ -1,0 +1,20 @@
+id: form.seq_stage_count
+name: 图号连续 / 阶段 / 张数
+pack: form
+enabled: true
+severity: medium
+basis: 同专业图号应连续；张数与目录一致
+needs:
+  - title_block
+  - toc
+checks:
+  - op: seq
+    field: title_block.drawing_nos
+    type: drawing_no_gap
+    msg: "{key} 图号不连续，缺 {missing}"
+    suggestion: 补图或重排图号
+  - op: eq
+    field: toc.stage
+    type: stage_vs_toc
+    msg: "目录阶段与图纸不一致：{items}"
+    suggestion: 核对封面/目录阶段
