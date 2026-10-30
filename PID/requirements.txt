@@ -1,0 +1,15 @@
+langgraph>=0.2.0
+langchain-core>=0.3.0
+fastapi>=0.115.0
+uvicorn>=0.32.0
+pydantic>=2.0
+pyyaml>=6.0
+python-multipart>=0.0.9
+httpx>=0.27
+openai>=1.40
+pymupdf>=1.24
+pypdfium2>=4.30.0
+pillow>=10.0
+ultralytics>=8.3.200   # 版面权重基于 yolo26l，旧版 ultralytics 加载不了
+paramiko>=3.0          # 远程 YOLO：SSH 上传图片、收回说明框
+langgraph-cli>=0.4.0

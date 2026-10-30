@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "toc_index": "./ai/graph/toc_index.py:graph"
+  },
+  "env": ".env"
+}
